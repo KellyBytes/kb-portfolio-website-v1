@@ -1,0 +1,217 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "InterVariable";
+  src: url("/fonts/InterVariable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "InterVariable";
+  src: url("/fonts/InterVariable-Italic.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #f1f5f9;
+  --bg-tertiary: #e2e8f0;
+  --bg-accent: #dbeafe;
+  --bg-compliment: "";
+  --bg-gradient: "";
+  --bg-muted: #f8fafc;
+
+  --c-primary: #475569;
+  --c-secondary: #334155;
+  --c-tertiary: #1e293b;
+  --c-accent: #1d4ed8;
+  --c-compliment: "";
+  --c-gradient: "";
+  --c-muted: ;
+  --c-link: #2563eb;
+  --c-link-transparent: rgba(37, 99, 235, 0.1);
+
+  --c-success: "";
+  --c-warning: "";
+  --c-error: "";
+  --c-info: "";
+  --c-highlight: #fef9c3;
+
+  --gradient-start: #9580ff;
+  --gradient-end: #6366f1;
+
+  --border-primary: #f1f5f9;
+  --border-secondary: #bed1e7;
+  --border-highlight: #64748b;
+  --border-tertiary: "";
+
+  --shadow-dark: "";
+  --shadow-light: "";
+  --shadow-text: "";
+
+  --padding-small: 1rem;
+  --padding-large: 2rem;
+
+  --border-radius-small: 0.5rem;
+  --border-radius-large: 0.75rem;
+  --highlight-border-radius: 0.5rem;
+
+  --text-selection: "";
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-primary: #334155;
+    --bg-secondary: #1e293b;
+    --bg-tertiary: #0f172a;
+    --bg-accent: #122a38;
+    --bg-compliment: "";
+    --bg-gradient: "";
+    --bg-muted: #1a1e32;
+
+    --c-primary: #94a3b8;
+    --c-secondary: #cbd5e1;
+    --c-tertiary: #e2e8f0;
+    --c-accent: #5eeaca;
+    --c-compliment: "";
+    --c-gradient: "";
+    --c-muted: ;
+    --c-link: #60a5fa;
+    --c-link-transparent: rgba(37, 99, 235, 0.1);
+
+    --c-success: "";
+    --c-warning: "";
+    --c-error: "";
+    --c-info: "";
+    --c-highlight: #fef9c3;
+
+    --gradient-start: #9580ff;
+    --gradient-end: #6366f1;
+
+    --border-primary: #29325b;
+    --border-secondary: #323c71;
+    --border-highlight: #4649af;
+    --border-tertiary: "";
+
+    --shadow-dark: "";
+    --shadow-light: "";
+    --shadow-text: "";
+
+    --padding-small: 1rem;
+    --padding-large: 2rem;
+
+    --border-radius-small: 0.5rem;
+    --border-radius-large: 0.75rem;
+    --highlight-border-radius: 0.5rem;
+
+    --text-selection: "";
+  }
+}
+
+:root.dark {
+  --bg-primary: #334155;
+  --bg-secondary: #1e293b;
+  --bg-tertiary: #0f172a;
+  --bg-accent: #122a38;
+  --bg-compliment: "";
+  --bg-gradient: "";
+  --bg-muted: #1a1e32;
+
+  --c-primary: #94a3b8;
+  --c-secondary: #cbd5e1;
+  --c-tertiary: #e2e8f0;
+  --c-accent: #5eeaca;
+  --c-compliment: "";
+  --c-gradient: "";
+  --c-muted: ;
+  --c-link: #60a5fa;
+  --c-link-transparent: rgba(37, 99, 235, 0.1);
+
+  --c-success: "";
+  --c-warning: "";
+  --c-error: "";
+  --c-info: "";
+  --c-highlight: #fef9c3;
+
+  --gradient-start: #9580ff;
+  --gradient-end: #6366f1;
+
+  --border-primary: #29325b;
+  --border-secondary: #323c71;
+  --border-highlight: #4649af;
+  --border-tertiary: "";
+
+  --shadow-dark: "";
+  --shadow-light: "";
+  --shadow-text: "";
+
+  --padding-small: 1rem;
+  --padding-large: 2rem;
+
+  --border-radius-small: 0.5rem;
+  --border-radius-large: 0.75rem;
+  --highlight-border-radius: 0.5rem;
+
+  --text-selection: "";
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "InterVariable", sans-serif;
+  font-feature-settings: "cv11" 1;
+  font-variant-alternates: stylistic(cv11);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #1f2937;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #ef4444;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #dc2626;
+  border-radius: 4px;
+}
+
+.dark .custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #fbbf24;
+  border-radius: 4px;
+}
+
+.dark .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #f59e0b;
+  border-radius: 4px;
+}
+
+@theme {
+  --animate-bounce: bounce 2s infinite;
+
+  @keyframes bounce {
+    0%,
+    100% {
+      transform: translateY(-75%);
+      animation-timing-function: ease-out;
+    }
+    50% {
+      transform: translateY(2px);
+      animation-timing-function: ease-out;
+    }
+  }
+}
