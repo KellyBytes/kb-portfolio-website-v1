@@ -50,9 +50,9 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="w-full min-h-screen py-18 flex flex-col justify-center items-center"
+      className="max-w-xl min-h-screen py-18 flex flex-col justify-center items-center"
     >
-      <h2 className="text-3xl font-light mb-8 md:mb-12 text-shadow-md">
+      <h2 className="text-2xl font-light uppercase mb-8 text-shadow-md">
         Connect with Me
       </h2>
       <form
@@ -67,7 +67,7 @@ const Contact = () => {
             name="name"
             required
             placeholder="Enter your name"
-            className="w-[clamp(18.75rem,16.25rem+12.5vw,31.25rem)] h-10 pl-3 mt-1 text-[var(--c-secondary)] bg-[var(--bg-secondary)] outline-0 border border-[var(--c-accent)] rounded-md placeholder-gray-400 dark:placeholder-teal-500/40 transition-colors duration-500"
+            className="w-[clamp(18.75rem,16.25rem+12.5vw,31.25rem)] h-10 pl-3 mt-1 text-[var(--c-secondary)] bg-[var(--bg-secondary)] outline-0 border border-[var(--c-accent)] rounded-md placeholder-gray-400 dark:placeholder-teal-500/40"
           />
         </label>
         <label className="flex flex-col text-shadow-sm">
@@ -77,7 +77,7 @@ const Contact = () => {
             name="email"
             required
             placeholder="abc@example.com"
-            className="w-[clamp(18.75rem,16.25rem+12.5vw,31.25rem)] h-10 pl-3 mt-1 text-[var(--c-secondary)] bg-[var(--bg-secondary)] outline-0 border border-[var(--c-accent)] rounded-md placeholder-gray-400 dark:placeholder-teal-500/40 transition-colors duration-500"
+            className="w-[clamp(18.75rem,16.25rem+12.5vw,31.25rem)] h-10 pl-3 mt-1 text-[var(--c-secondary)] bg-[var(--bg-secondary)] outline-0 border border-[var(--c-accent)] rounded-md placeholder-gray-400 dark:placeholder-teal-500/40"
           />
         </label>
         <label className="flex flex-col text-shadow-sm">
@@ -89,7 +89,7 @@ const Contact = () => {
             onChange={handleChange}
             placeholder="(XXX) XXX-XXXX"
             maxLength={14}
-            className="w-[clamp(18.75rem,16.25rem+12.5vw,31.25rem)] h-10 pl-3 mt-1 text-[var(--c-secondary)] bg-[var(--bg-secondary)] outline-0 border border-[var(--c-accent)] rounded-md placeholder-gray-400 dark:placeholder-teal-500/40 transition-colors duration-500"
+            className="w-[clamp(18.75rem,16.25rem+12.5vw,31.25rem)] h-10 pl-3 mt-1 text-[var(--c-secondary)] bg-[var(--bg-secondary)] outline-0 border border-[var(--c-accent)] rounded-md placeholder-gray-400 dark:placeholder-teal-500/40"
           />
         </label>
         <label className="flex flex-col text-shadow-sm">
@@ -98,12 +98,12 @@ const Contact = () => {
             name="message"
             required
             placeholder="Type your message here..."
-            className="w-[clamp(18.75rem,16.25rem+12.5vw,31.25rem)] pl-3 mt-1 text-[var(--c-secondary)] bg-[var(--bg-secondary)] outline-0 border border-[var(--c-accent)] rounded-md placeholder-gray-400 dark:placeholder-teal-500/40 min-h-30 max-h-50 resize-y p-3 transition-colors duration-500"
+            className="w-[clamp(18.75rem,16.25rem+12.5vw,31.25rem)] pl-3 mt-1 text-[var(--c-secondary)] bg-[var(--bg-secondary)] outline-0 border border-[var(--c-accent)] rounded-md placeholder-gray-400 dark:placeholder-teal-500/40 min-h-30 max-h-50 resize-y p-3"
           ></textarea>
         </label>
         <button
           type="submit"
-          className="w-[clamp(18.75rem,16.25rem+12.5vw,31.25rem)] h-10 text-lg outline-0 rounded-md bg-[var(--c-accent)] text-neutral-100 dark:text-slate-900 hover:bg-blue-800 dark:hover:bg-teal-500 uppercase font-bold cursor-pointer tracking-wide text-shadow-md shadow-md shadow-gray-700/20 transform active:translate-y-0.5 transition-colors duration-500"
+          className="w-[clamp(18.75rem,16.25rem+12.5vw,31.25rem)] h-10 mt-2 text-lg outline-0 rounded-md bg-[var(--c-accent)] text-neutral-100 dark:text-slate-900 hover:opacity-70 uppercase font-bold cursor-pointer tracking-wide text-shadow-md shadow-md shadow-gray-700/20 transform active:translate-y-0.5 transition-opacity duration-300"
         >
           Submit
         </button>

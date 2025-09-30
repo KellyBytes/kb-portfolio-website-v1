@@ -45,27 +45,26 @@ const NavBar = () => {
 
   return (
     <div
-      className={`w-full md:max-w-[45%] h-18 sm:max-h-14 md:min-h-full
+      className={`w-full md:w-[45%] h-18 sm:max-h-14 md:min-h-full
               flex flex-col justify-center items-center
               md:justify-between md:items-start
               px-4 sm:px-6 md:px-16 py-18
-              fixed top-0 xl:left-32 2xl:left-52 z-50
-              transition-colors duration-500 ${
+              fixed top-0 xl:left-32 2xl:left-52 z-50 ${
                 isVisible ? 'opacity-100' : 'opacity-0'
-              } transition-opacity duration-1500`}
+              } transition-opacity ease-in duration-1500`}
     >
       <div className="flex flex-col items-start w-full gap-y-4 sm:gap-x-4 gap-x-2">
         <a
           href="#"
-          className="text-[var(--c-tertiary)] font-bold text-3xl sm:text-4xl md:text-5xl text-shadow-lg transition-colors duration-500"
+          className="text-[var(--c-tertiary)] font-bold text-3xl sm:text-4xl md:text-5xl text-shadow-lg"
           onClick={(e) => handleNavClick(e, 'home')}
         >
           Eriko Iwashita
         </a>
-        <h2 className="text-[var(--c-secondary)] text-shadow-md transition-colors duration-500">
+        <h2 className="text-[var(--c-secondary)] text-shadow-md">
           Front End Developer
         </h2>
-        <p className="md:w-64 lg:w-96 text-wrap text-shadow-sm transition-colors duration-500">
+        <p className="md:w-64 lg:w-96 text-wrap text-shadow-sm">
           I build accessible, interactive applications and experiences on the
           web.
         </p>
@@ -73,7 +72,7 @@ const NavBar = () => {
       <div className="flex flex-col gap-y-4">
         <a
           href="#home"
-          className={`group inline-block text-sm lg:text-base font-light uppercase mr-8 md:mr-19 tracking-wide text-shadow-sm transition-colors duration-50 relative ${
+          className={`group inline-block text-sm lg:text-base font-light uppercase mr-8 md:mr-19 tracking-wide text-shadow-sm relative ${
             activeSection === 'home'
               ? 'text-[var(--c-accent)]'
               : 'text-[var(--c-tertiary)]'
@@ -82,7 +81,7 @@ const NavBar = () => {
         >
           About
           <span
-            className={`absolute bottom-0 left-0 w-full h-[1px] transform scale-x-0 group-hover:scale-x-100 origin-right group-hover:origin-left transition duration-500 ${
+            className={`absolute bottom-0 left-0 w-full h-[1px] transform scale-x-0 group-hover:scale-x-100 origin-right group-hover:origin-left transition-transform duration-500 ${
               activeSection === 'home'
                 ? 'bg-[var(--c-accent)] scale-x-100'
                 : 'bg-[var(--c-tertiary)] scale-x-0'
@@ -91,7 +90,7 @@ const NavBar = () => {
         </a>
         <a
           href="#projects"
-          className={`group text-sm lg:text-base font-light uppercase mr-8 md:mr-12 tracking-wide text-shadow-sm transition-colors duration-50 relative ${
+          className={`group text-sm lg:text-base font-light uppercase mr-8 md:mr-12 tracking-wide text-shadow-sm relative ${
             activeSection === 'projects'
               ? 'text-[var(--c-accent)]'
               : 'text-[var(--c-tertiary)]'
@@ -100,7 +99,7 @@ const NavBar = () => {
         >
           Projects
           <span
-            className={`absolute bottom-0 left-0 w-full h-[1px] transform scale-x-0 group-hover:scale-x-100 origin-right group-hover:origin-left transition duration-500 ${
+            className={`absolute bottom-0 left-0 w-full h-[1px] transform scale-x-0 group-hover:scale-x-100 origin-right group-hover:origin-left transition-transform duration-500 ${
               activeSection === 'projects'
                 ? 'bg-[var(--c-accent)] scale-x-100'
                 : 'bg-[var(--c-tertiary)] scale-x-0'
@@ -109,7 +108,7 @@ const NavBar = () => {
         </a>
         <a
           href="#contact"
-          className={`group text-sm lg:text-base font-light uppercase mr-9 md:mr-14 tracking-wide text-shadow-sm transition-colors duration-50 relative ${
+          className={`group text-sm lg:text-base font-light uppercase mr-9 md:mr-14 tracking-wide text-shadow-sm relative ${
             activeSection === 'contact'
               ? 'text-[var(--c-accent)]'
               : 'text-[var(--c-tertiary)]'
@@ -118,7 +117,7 @@ const NavBar = () => {
         >
           Contact
           <span
-            className={`absolute bottom-0 left-0 w-full h-[1px] transform scale-x-0 group-hover:scale-x-100 origin-right group-hover:origin-left transition duration-500 ${
+            className={`absolute bottom-0 left-0 w-full h-[1px] transform scale-x-0 group-hover:scale-x-100 origin-right group-hover:origin-left transition-transform duration-500 ${
               activeSection === 'contact'
                 ? 'bg-[var(--c-accent)] scale-x-100'
                 : 'bg-[var(--c-tertiary)] scale-x-0'
@@ -128,7 +127,7 @@ const NavBar = () => {
         <div className="flex items-center gap-3">
           <button
             onClick={toggleDarkMode}
-            className={`relative w-13 h-7 rounded-full flex items-center justify-between px-2 text-[var(--c-primary)] transition-colors duration-100 
+            className={`relative w-13 h-7 rounded-full flex items-center justify-between px-2 text-[var(--c-primary)] 
           ${darkMode ? 'bg-gray-600' : 'bg-gray-300'}`}
           >
             <i className="bx bx-sun text-md" />

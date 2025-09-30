@@ -7,7 +7,7 @@ import { ThemeProvider } from './context/ThemeContext';
 const App = () => {
   return (
     <ThemeProvider>
-      <div className="min-h-screen bg-linear-to-br from-[var(--bg-primary)] from-10% via-[var(--bg-secondary)] via-40% to-[var(--bg-tertiary)] text-[var(--c-primary)] transition-colors duration-500">
+      <div className="w-full min-h-screen bg-linear-to-br from-[var(--bg-primary)] from-5% via-[var(--bg-secondary)] via-35% to-[var(--bg-tertiary)] text-[var(--c-primary)]">
         <NavBar />
         <div className="ml-[45%]">
           <Hero />

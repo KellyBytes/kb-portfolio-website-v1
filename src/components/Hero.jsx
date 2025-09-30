@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className={`min-h-screen w-full lg:max-w-lg py-18 px-8 flex flex-col gap-y-4 ${
+      className={`w-full lg:max-w-xl min-h-screen px-8 py-18 flex flex-col gap-y-4 ${
         isVisible ? 'opacity-100' : 'opacity-0'
       } transition-opacity duration-1500`}
     >
@@ -30,8 +30,9 @@ const Hero = () => {
         <span className="font-bold">TypeScript</span>,{' '}
         <span className="font-bold">React</span>,{' '}
         <span className="font-bold">Node.js</span>,{' '}
-        <span className="font-bold">Tailwind</span>, and{' '}
-        <span className="font-bold">Git</span>, I develop fully responsive,
+        <span className="font-bold">Tailwind</span>,{' '}
+        <span className="font-bold">Git</span>, and{' '}
+        <span className="font-bold">Figma</span>, I develop fully responsive,
         interactive, and scalable applications tailored to meet the specific
         needs of my clients.
       </p>
@@ -50,6 +51,13 @@ const Hero = () => {
         creativity, and precision. I am excited about the opportunity to
         contribute to innovative projects and help bring ideas to life.
       </p>
+      <a
+        href="#"
+        className="resume text-[var(--c-accent)] mt-4 shadow-2xl opacity-80 hover:opacity-100 transition duration-300"
+      >
+        View Full Résumé{' '}
+        <i className="fa-solid fa-arrow-up-right-from-square" />
+      </a>
     </div>
   );
 };

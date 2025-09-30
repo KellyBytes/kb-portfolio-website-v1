@@ -18,18 +18,20 @@
 
 :root {
   --bg-primary: #f8fafc;
-  --bg-secondary: #f1f5f9;
-  --bg-tertiary: #e2e8f0;
-  --bg-accent: #dbeafe;
+  --bg-secondary: #f9fcff;
+  --bg-tertiary: #f1f5f9;
+
+  --bg-accent: #fef2f27f;
   --bg-compliment: "";
   --bg-gradient: "";
   --bg-muted: #f8fafc;
 
-  --c-primary: #475569;
-  --c-secondary: #334155;
-  --c-tertiary: #1e293b;
+  --c-primary: #868686;
+  --c-secondary: #a6a6a6;
+  --c-tertiary: #404040;
   --c-accent: #1d4ed8;
-  --c-compliment: "";
+  --c-accent: #dc2626;
+  --c-compliment: #9ca3af;
   --c-gradient: "";
   --c-muted: ;
   --c-link: #2563eb;
@@ -68,7 +70,7 @@
     --bg-primary: #334155;
     --bg-secondary: #1e293b;
     --bg-tertiary: #0f172a;
-    --bg-accent: #122a38;
+    --bg-accent: #164e63;
     --bg-compliment: "";
     --bg-gradient: "";
     --bg-muted: #1a1e32;
@@ -116,7 +118,7 @@
   --bg-primary: #334155;
   --bg-secondary: #1e293b;
   --bg-tertiary: #0f172a;
-  --bg-accent: #122a38;
+  --bg-accent: #164e63;
   --bg-compliment: "";
   --bg-gradient: "";
   --bg-muted: #1a1e32;
