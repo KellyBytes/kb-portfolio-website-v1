@@ -61,10 +61,10 @@ const NavBar = () => {
         >
           Eriko Iwashita
         </a>
-        <h2 className="text-[var(--c-secondary)] text-shadow-md">
+        <h2 className="text-[var(--c-secondary)] font-medium text-shadow-md">
           Front End Developer
         </h2>
-        <p className="md:w-64 lg:w-96 text-wrap text-shadow-sm">
+        <p className="md:w-64 lg:w-96 text-wrap text-shadow-sm font-light">
           I build accessible, interactive applications and experiences on the
           web.
         </p>
@@ -128,7 +128,7 @@ const NavBar = () => {
           <button
             onClick={toggleDarkMode}
             className={`relative w-13 h-7 rounded-full flex items-center justify-between px-2 text-[var(--c-primary)] 
-          ${darkMode ? 'bg-gray-600' : 'bg-gray-300'}`}
+          bg-[var(--bg-compliment)] cursor-pointer`}
           >
             <i className="bx bx-sun text-md" />
             <i className="bx bx-moon text-md" />
@@ -144,7 +144,7 @@ const NavBar = () => {
           <a
             href={social.url}
             key={index}
-            className="text-lg md:text-2xl xl:text-3xl text-[var(--c-primary)] hover:text-[var(--c-tertiary)] transition-colors duration-300"
+            className="text-lg md:text-2xl xl:text-3xl text-[var(--c-primary)] hover:text-[var(--c-secondary)] transition-colors duration-300"
             target="_blank"
           >
             <i className={social.icon}></i>

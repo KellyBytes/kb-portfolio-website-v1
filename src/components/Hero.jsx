@@ -53,7 +53,7 @@ const Hero = () => {
       </p>
       <a
         href="#"
-        className="resume text-[var(--c-accent)] mt-4 shadow-2xl opacity-80 hover:opacity-100 transition duration-300"
+        className="resume text-[var(--c-accent)] mt-4 text-shadow-sm hover:opacity-80 transition duration-300"
       >
         View Full Résumé{' '}
         <i className="fa-solid fa-arrow-up-right-from-square" />

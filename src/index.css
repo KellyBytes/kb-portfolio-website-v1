@@ -17,148 +17,81 @@
 }
 
 :root {
-  --bg-primary: #f8fafc;
-  --bg-secondary: #f9fcff;
-  --bg-tertiary: #f1f5f9;
+  --bg-primary: #f8fafc; /*slate-50 */
+  --bg-secondary: #f1f5f9; /*slate-100 */
+  --bg-tertiary: #e2e8f0; /*slate-200 */
 
-  --bg-accent: #fef2f27f;
-  --bg-compliment: "";
-  --bg-gradient: "";
-  --bg-muted: #f8fafc;
+  --bg-accent: #e0f2fe; /* sky-100 */
+  --bg-compliment: #d1d5db; /* gray-300 */
 
-  --c-primary: #868686;
-  --c-secondary: #a6a6a6;
-  --c-tertiary: #404040;
-  --c-accent: #1d4ed8;
-  --c-accent: #dc2626;
-  --c-compliment: #9ca3af;
-  --c-gradient: "";
-  --c-muted: ;
+  --c-primary: #475569; /* slate-600 */
+  --c-secondary: #475569; /* slate-600 */
+  --c-tertiary: #374151; /* gray-700 */
+
+  --c-accent: #0284c7; /* sky-700 */
+  --c-compliment: #9ca3af; /* gray-400 */
   --c-link: #2563eb;
   --c-link-transparent: rgba(37, 99, 235, 0.1);
 
-  --c-success: "";
-  --c-warning: "";
-  --c-error: "";
-  --c-info: "";
-  --c-highlight: #fef9c3;
+  --c-success: #22c55e; /* green-500 */
+  --c-alert: #ef4444; /* red-500 */
+  --c-idle: #d97706; /* amber-600 */
+  --c-info: #0284c7; /* sky-600 */
 
-  --gradient-start: #9580ff;
-  --gradient-end: #6366f1;
+  --gradient-start: #8b5cf6; /* violet-600 */
+  --gradient-end: #4f46e5; /* indigo-600 */
+}
 
-  --border-primary: #f1f5f9;
-  --border-secondary: #bed1e7;
-  --border-highlight: #64748b;
-  --border-tertiary: "";
+:root.dark {
+  --bg-primary: #1f2937; /* gray-800 */
+  --bg-secondary: #111827; /* gray-900 */
+  --bg-tertiary: #030712; /* gray-950 */
+  --bg-accent: #14b8a538;
+  --bg-compliment: #4b5563; /* gray-600 */
 
-  --shadow-dark: "";
-  --shadow-light: "";
-  --shadow-text: "";
+  --c-primary: #94a3b8; /* slate-400 */
+  --c-secondary: #cbd5e1; /* slate-300 */
+  --c-tertiary: #e2e8f0; /* slate-200 */
 
-  --padding-small: 1rem;
-  --padding-large: 2rem;
+  --c-accent: #5eead4; /* teal-300 */
+  --c-compliment: #9ca3af; /* gray-400 */
+  --c-link: #60a5fa;
+  --c-link-transparent: rgba(37, 99, 235, 0.1);
 
-  --border-radius-small: 0.5rem;
-  --border-radius-large: 0.75rem;
-  --highlight-border-radius: 0.5rem;
+  --c-success: #4ade80; /* green-400 */
+  --c-alert: #f87171; /* red-400 */
+  --c-idle: #f59e0b; /* amber-500 */
+  --c-info: #0ea5e9; /* sky-500 */
 
-  --text-selection: "";
+  --gradient-start: #a78bfa; /* violet-400 */
+  --gradient-end: #6366f1; /* indigo-500 */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-primary: #334155;
-    --bg-secondary: #1e293b;
-    --bg-tertiary: #0f172a;
-    --bg-accent: #164e63;
-    --bg-compliment: "";
-    --bg-gradient: "";
-    --bg-muted: #1a1e32;
+    --bg-primary: #1f2937; /* gray-800 */
+    --bg-secondary: #111827; /* gray-900 */
+    --bg-tertiary: #030712; /* gray-950 */
+    --bg-accent: #14b8a538;
+    --bg-compliment: #4b5563; /* gray-600 */
 
-    --c-primary: #94a3b8;
-    --c-secondary: #cbd5e1;
-    --c-tertiary: #e2e8f0;
-    --c-accent: #5eeaca;
-    --c-compliment: "";
-    --c-gradient: "";
-    --c-muted: ;
+    --c-primary: #94a3b8; /* slate-400 */
+    --c-secondary: #cbd5e1; /* slate-300 */
+    --c-tertiary: #e2e8f0; /* slate-200 */
+
+    --c-accent: #5eead4; /* teal-300 */
+    --c-compliment: #9ca3af; /* gray-400 */
     --c-link: #60a5fa;
     --c-link-transparent: rgba(37, 99, 235, 0.1);
 
-    --c-success: "";
-    --c-warning: "";
-    --c-error: "";
-    --c-info: "";
-    --c-highlight: #fef9c3;
+    --c-success: #4ade80; /* green-400 */
+    --c-alert: #f87171; /* red-400 */
+    --c-idle: #f59e0b; /* amber-500 */
+    --c-info: #0ea5e9; /* sky-500 */
 
-    --gradient-start: #9580ff;
-    --gradient-end: #6366f1;
-
-    --border-primary: #29325b;
-    --border-secondary: #323c71;
-    --border-highlight: #4649af;
-    --border-tertiary: "";
-
-    --shadow-dark: "";
-    --shadow-light: "";
-    --shadow-text: "";
-
-    --padding-small: 1rem;
-    --padding-large: 2rem;
-
-    --border-radius-small: 0.5rem;
-    --border-radius-large: 0.75rem;
-    --highlight-border-radius: 0.5rem;
-
-    --text-selection: "";
+    --gradient-start: #a78bfa; /* violet-400 */
+    --gradient-end: #6366f1; /* indigo-500 */
   }
-}
-
-:root.dark {
-  --bg-primary: #334155;
-  --bg-secondary: #1e293b;
-  --bg-tertiary: #0f172a;
-  --bg-accent: #164e63;
-  --bg-compliment: "";
-  --bg-gradient: "";
-  --bg-muted: #1a1e32;
-
-  --c-primary: #94a3b8;
-  --c-secondary: #cbd5e1;
-  --c-tertiary: #e2e8f0;
-  --c-accent: #5eeaca;
-  --c-compliment: "";
-  --c-gradient: "";
-  --c-muted: ;
-  --c-link: #60a5fa;
-  --c-link-transparent: rgba(37, 99, 235, 0.1);
-
-  --c-success: "";
-  --c-warning: "";
-  --c-error: "";
-  --c-info: "";
-  --c-highlight: #fef9c3;
-
-  --gradient-start: #9580ff;
-  --gradient-end: #6366f1;
-
-  --border-primary: #29325b;
-  --border-secondary: #323c71;
-  --border-highlight: #4649af;
-  --border-tertiary: "";
-
-  --shadow-dark: "";
-  --shadow-light: "";
-  --shadow-text: "";
-
-  --padding-small: 1rem;
-  --padding-large: 2rem;
-
-  --border-radius-small: 0.5rem;
-  --border-radius-large: 0.75rem;
-  --highlight-border-radius: 0.5rem;
-
-  --text-selection: "";
 }
 
 @custom-variant dark (&:where(.dark, .dark *));
@@ -174,32 +107,37 @@ html {
 }
 
 .custom-scrollbar::-webkit-scrollbar {
-  width: 8px;
+  width: 0.5rem;
 }
 
 .custom-scrollbar::-webkit-scrollbar-track {
-  background: #1f2937;
-  border-radius: 4px;
+  background: #d1d5db; /* gray-300 */
+  border-radius: 0.25rem;
+}
+
+.dark .custom-scrollbar::-webkit-scrollbar-track {
+  background: #4b5563; /* gray-600 */
+  border-radius: 0.25rem;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background: #ef4444;
-  border-radius: 4px;
+  background: #0284c7; /* sky-600 */
+  border-radius: 0.25rem;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: #dc2626;
-  border-radius: 4px;
+  background: #0369a1; /* sky-700 */
+  border-radius: 0.25rem;
 }
 
 .dark .custom-scrollbar::-webkit-scrollbar-thumb {
-  background: #fbbf24;
-  border-radius: 4px;
+  background: #5eead4;
+  border-radius: 0.25rem;
 }
 
 .dark .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: #f59e0b;
-  border-radius: 4px;
+  background: #2dd4bf;
+  border-radius: 0.25rem;
 }
 
 @theme {
@@ -214,6 +152,21 @@ html {
     50% {
       transform: translateY(2px);
       animation-timing-function: ease-out;
+    }
+  }
+}
+
+@theme {
+  --animate-fade-in: fade-in 1500ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
     }
   }
 }

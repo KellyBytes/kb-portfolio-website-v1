@@ -103,7 +103,7 @@ const Contact = () => {
         </label>
         <button
           type="submit"
-          className="w-[clamp(18.75rem,16.25rem+12.5vw,31.25rem)] h-10 mt-2 text-lg outline-0 rounded-md bg-[var(--c-accent)] text-neutral-100 dark:text-slate-900 hover:opacity-70 uppercase font-bold cursor-pointer tracking-wide text-shadow-md shadow-md shadow-gray-700/20 transform active:translate-y-0.5 transition-opacity duration-300"
+          className="w-[clamp(18.75rem,16.25rem+12.5vw,31.25rem)] h-10 mt-2 text-lg outline-0 rounded-md bg-[var(--c-accent)] text-neutral-100 dark:text-slate-900 hover:opacity-80 uppercase font-bold cursor-pointer tracking-wide text-shadow-md shadow-md shadow-gray-700/20 transform active:translate-y-0.5 transition-opacity duration-300"
         >
           Submit
         </button>
