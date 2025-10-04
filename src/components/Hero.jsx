@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
+import { useTheme } from '../context/ThemeContext';
 
 const Hero = () => {
+  const { isThemeChanging } = useTheme();
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -10,7 +12,7 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className={`w-full lg:max-w-xl min-h-screen px-8 py-18 flex flex-col gap-y-4 ${
+      className={`w-full lg:max-w-2xl 2xl:max-w-3xl min-h-screen p-8 lg:pr-16 lg:py-18 flex flex-col gap-y-4 ${
         isVisible ? 'opacity-100' : 'opacity-0'
       } transition-opacity duration-1500`}
     >
@@ -53,7 +55,9 @@ const Hero = () => {
       </p>
       <a
         href="#"
-        className="resume text-[var(--c-accent)] mt-4 text-shadow-sm hover:opacity-80 transition duration-300"
+        className={`resume text-[var(--c-accent)] mt-4 text-shadow-sm hover:opacity-80 ${
+          isThemeChanging ? 'transition-none' : 'transition duration-300'
+        }`}
       >
         View Full Résumé{' '}
         <i className="fa-solid fa-arrow-up-right-from-square" />

@@ -9,7 +9,7 @@ const App = () => {
     <ThemeProvider>
       <div className="w-full min-h-screen bg-linear-to-br from-[var(--bg-primary)] from-5% via-[var(--bg-secondary)] via-35% to-[var(--bg-tertiary)] text-[var(--c-primary)]">
         <NavBar />
-        <div className="ml-[45%]">
+        <div className="pt-56 lg:pt-0 lg:mt-0 lg:ml-[45%]">
           <Hero />
           <Projects />
           <Contact />
