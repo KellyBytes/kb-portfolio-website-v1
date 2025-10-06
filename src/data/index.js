@@ -11,14 +11,14 @@ export const projects = [
     title: 'News App',
     description:
       'A dashboard-style web application that displays the latest news, current weather, and a calendar. It fetches top headlines and category-based articles from the GNews API. Users can bookmark their favorite articles to easily revisit them later.',
-    tags: ['React', 'Tailwind CSS', 'GNews API', 'OpenWeatherMap API'],
+    tags: ['React', 'Tailwind', 'GNews API', 'Weather API'],
     url: 'https://kb-news-and-blogs.netlify.app/',
   },
   {
     img: '/images/ai-chat-bot.png',
     title: 'AI Chat Bot',
     description:
-      'A responsive chat application powered by the OpenAI API. It automatically saves chat history, with options to delete conversations if desired. Responses are neatly formatted for readability. The app supports both light and dark modes for a better user experience across devices.',
+      'A responsive chat application powered by the OpenAI API. It automatically saves chat history, with options to delete conversations if desired. Responses are neatly formatted for readability. Supports light/dark mode.',
     tags: ['React', 'OpenAI API'],
     url: 'https://kb-ai-chat-bot.netlify.app/',
   },
@@ -26,31 +26,31 @@ export const projects = [
     img: '/images/caffiend.png',
     title: 'Caffeine Tracker',
     description:
-      'A responsive web app for tracking caffeine intake. Users can log drinks by type, cost, and time consumed, while the app calculates estimated caffeine remaining in the body and displays an index (low, moderate, high). The Stats section highlights the top three most consumed drinks, and the History section shows drink details, elapsed time, and caffeine levels on hover or click. Supports light/dark mode and manages users and data with Firebase.',
-    tags: ['React', 'Firebase'],
+      'A responsive caffeine tracker app where users log drinks by type, cost, and time. It estimates caffeine levels in the body, shows stats and history with details. Supports light/dark mode, and uses Firebase for user and data management.',
+    tags: ['React', 'JavaScript', 'Firebase'],
     url: 'https://kb-caffiend.netlify.app/',
   },
   {
     img: '/images/copacetic.png',
     title: 'Word Learning App',
     description:
-      "A vocabulary learning app based on spaced-repetition theory. Users are shown a word's meaning and type the correct word to reinforce memory. A block-based input system indicates the number of letters, highlighting incorrect characters in red. Words are repeated at optimal intervals to enhance long-term retention. The app also encourages daily practice with a streak system that resets every 24 hours.",
-    tags: ['React'],
+      'A spaced-repetition vocabulary app where users type words from meanings. It shows letter blocks, highlights errors, optimizes review intervals, and motivates daily study with a 24-hour streak system.',
+    tags: ['React', 'JavaScript'],
     url: 'https://kb-copacetic.netlify.app/',
   },
   {
     img: '/images/color-converter-app.png',
     title: 'Color Converter App',
     description:
-      'A web app that converts between HEX and RGB color values. Adjusting RGB numbers or sliders instantly updates the HEX value, while modifying the HEX input updates the RGB values and slider positions. The background color changes according to the selected values, and HEX codes can be copied with a single click.',
-    tags: ['React', 'Tailwind CSS'],
+      'A web app that converts HEX and RGB values in real time. Changing one updates the other and the background color. HEX codes are copyable with one click.',
+    tags: ['React', 'Tailwind'],
     url: 'https://kb-color-converter-app.netlify.app/',
   },
   {
     img: '/images/todo-app.png',
     title: 'Todo App',
     description:
-      'A responsive task management app that lets users add, edit, and delete todos with or without due dates. Tasks can be marked as Open or Done, and filtered by All, Open, or Complete. Sorting is available by date or no date. Due dates are color-coded: gray for upcoming, green for today, and red for overdue. The app also supports light/dark mode for a better user experience.',
+      'A responsive task manager where users add, edit, and delete todos with or without due dates. Tasks can be filtered, sorted, color-coded by status, and viewed in light or dark mode.',
     tags: ['React'],
     url: 'https://kb-todo-app.netlify.app/',
   },
@@ -65,7 +65,7 @@ export const projects = [
     img: '/images/weather-app.png',
     title: 'World Weather App',
     description: '',
-    tags: ['React', 'TypeScript', 'OpenWeatherMap API'],
+    tags: ['React', 'TypeScript', 'Weather API'],
     url: 'https://kb-fra-weather-app-2.netlify.app/',
   },
   {
@@ -86,21 +86,21 @@ export const projects = [
     img: '/images/faq-ui.png',
     title: 'FAQ UI',
     description: '',
-    tags: ['React', 'Tailwind CSS'],
+    tags: ['React', 'Tailwind'],
     url: 'https://kb-faq-accordion.netlify.app/',
   },
   {
     img: '/images/dark-light.png',
     title: 'Dark/Light Theme UI',
     description: '',
-    tags: ['React', 'Tailwind CSS'],
+    tags: ['React', 'Tailwind'],
     url: 'https://kb-dark-light-toggle.netlify.app/',
   },
   {
     img: '/images/shopping-cart-ui.png',
     title: 'Shopping Cart UI',
     description: '',
-    tags: ['React', 'Tailwind CSS'],
+    tags: ['React', 'Tailwind'],
     url: 'https://kb-shopping-cart.netlify.app/',
   },
   {

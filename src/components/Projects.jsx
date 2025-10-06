@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { projects } from '../data/index';
 import { useTheme } from '../context/ThemeContext';
 
@@ -22,7 +22,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="max-w-xl min-h-screen px-4 py-18 flex flex-col gap-y-4 justify-center items-center "
+      className="scroll-mt-56 lg:scroll-mt-0 lg:max-w-xl xl:max-w-2xl 2xl:max-w-3xl min-h-screen px-8 pt-6 pb-18 lg:py-18 sm:px-12 md:px-16 lg:pl-0 lg:pr-16 2xl:py-32 flex flex-col gap-y-4 justify-start items-center "
     >
       <h2 className="text-2xl font-light uppercase text-shadow-md">
         Recent Projects
@@ -31,7 +31,7 @@ const Projects = () => {
         {projects.slice(0, visibleCount).map((project, projectIndex) => (
           <a
             key={projectIndex}
-            className={`project w-full flex gap-4 mx-auto my-4 bg-[var(--bg-secondary)] hover:bg-[var(--bg-primary)] rounded-md hover:ring hover:ring-[var(--c-compliment)]/20 hover:shadow-md hover:shadow-[var(--c-compliment)]/20 group ${
+            className={`project w-full flex flex-col-reverse sm:flex-row mx-auto my-6 bg-[var(--bg-tertiary)] hover:bg-[var(--bg-primary)] rounded-md hover:ring hover:ring-[var(--c-compliment)]/20 hover:shadow-md hover:shadow-[var(--c-compliment)]/20 group ${
               isThemeChanging ? 'transition-none' : 'transition duration-300'
             }
             transition-all ease-out
@@ -51,9 +51,9 @@ const Projects = () => {
             <img
               src={project.img}
               alt={project.title}
-              className="w-30 object-contain self-center p-4"
+              className="w-48 sm:w-34 lg:w-30 object-contain self-center sm:self-start sm:pl-6 py-6 sm:mr-8 lg:mr-8"
             />
-            <div className="flex flex-col py-4 pr-4 gap-y-2">
+            <div className="flex flex-col py-4 px-4 lg:pl-0 lg:pr-4 gap-y-2">
               <h2
                 className={`font-bold text-[var(--c-tertiary)] group-hover:text-[var(--c-accent)] text-shadow-sm ${
                   isThemeChanging
@@ -70,7 +70,7 @@ const Projects = () => {
                   }`}
                 />
               </h2>
-              <p className="font-light text-sm text-pretty h-28 overflow-y-auto custom-scrollbar pr-2">
+              <p className="font-light text-sm text-pretty max-h-28 overflow-y-auto custom-scrollbar pr-2">
                 {project.description}
               </p>
               <div className="tags flex flex-wrap gap-x-1 gap-y-2 mt-2">
@@ -89,7 +89,7 @@ const Projects = () => {
         {visibleCount < projects.length && (
           <div className="text-center mt-8">
             <button
-              className={`px-4 py-2 font-bold text-[var(--c-accent)] uppercase border-2 border-[var(--c-accent)] rounded-md shadow-md shadow-gray-700/20 hover:opacity-80 cursor-pointer ${
+              className={`px-4 py-2 text-lg outline-0 rounded-md bg-[var(--c-accent)] text-neutral-100 dark:text-slate-900 hover:opacity-70 hover:scale-98 uppercase font-bold cursor-pointer tracking-wide text-shadow-md shadow-md shadow-gray-700/20 transform active:translate-y-0.5 ${
                 isThemeChanging ? 'transition-none' : 'transition duration-300'
               }`}
               onClick={handleLoadMore}
