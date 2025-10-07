@@ -22,7 +22,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="scroll-mt-16 lg:scroll-mt-0 lg:max-w-xl xl:max-w-2xl 2xl:max-w-3xl min-h-screen px-8 pt-6 pb-18 lg:py-18 sm:px-12 md:px-16 lg:pl-0 lg:pr-16 2xl:py-32 flex flex-col gap-y-4 justify-start items-center "
+      className="scroll-mt-16 lg:scroll-mt-0 lg:max-w-xl xl:max-w-2xl 2xl:max-w-3xl min-h-screen px-8 pt-6 pb-18 lg:py-18 sm:px-12 md:px-16 lg:pl-4 lg:pr-16 2xl:py-32 flex flex-col gap-y-4 justify-start items-center "
     >
       <h2 className="text-2xl font-light uppercase text-shadow-md">
         Recent Projects
