@@ -52,7 +52,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="scroll-mt-56 lg:scroll-mt-0 ld:max-w-xl xl:max-w-2xl 2xl:max-w-3xl min-h-screen px-8 pt-6 sm:px-12 md:px-16 lg:pl-0 lg:pr-16 lg:py-18 2xl:py-32 flex flex-col justify-start items-center"
+      className="scroll-mt-16 lg:scroll-mt-0 ld:max-w-xl xl:max-w-2xl 2xl:max-w-3xl min-h-screen px-8 pt-6 pb-12 sm:px-12 md:px-16 lg:pl-0 lg:pr-16 lg:py-18 2xl:py-32 flex flex-col justify-start items-center"
     >
       <h2 className="text-2xl font-light uppercase mb-8 text-shadow-md">
         Connect with Me
@@ -105,7 +105,7 @@ const Contact = () => {
         </label>
         <button
           type="submit"
-          className={`w-[clamp(18.75rem,15rem+18.75vw,37.5rem)] h-10 mt-2 text-lg outline-0 rounded-md bg-[var(--c-accent)] text-neutral-100 dark:text-slate-900 hover:opacity-70 hover:scale-98 uppercase font-bold cursor-pointer tracking-wide text-shadow-md shadow-md shadow-gray-700/20 transform active:translate-y-0.5  ${
+          className={`w-[clamp(18.75rem,15rem+18.75vw,37.5rem)] h-10 mt-2 custom-btn ${
             isThemeChanging ? 'transition-none' : 'transition duration-300'
           }`}
         >

@@ -12,7 +12,7 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className={`scroll-mt-56 lg:scroll-mt-0 w-full lg:max-w-2xl 2xl:max-w-3xl min-h-screen px-8 pt-6 sm:px-12 md:px-16 lg:pl-0 lg:pr-16 lg:py-18 2xl:py-32 flex flex-col gap-y-4 ${
+      className={`scroll-mt-16 lg:scroll-mt-0 w-full lg:max-w-2xl 2xl:max-w-3xl min-h-screen px-8 pt-6 pb-12 sm:px-12 md:px-16 lg:pl-0 lg:pr-16 lg:py-18 2xl:py-32 flex flex-col gap-y-4 ${
         isVisible ? 'opacity-100' : 'opacity-0'
       } transition-opacity duration-1500`}
     >
