@@ -42,31 +42,6 @@
   --gradient-end: #4f46e5; /* indigo-600 */
 }
 
-:root.dark {
-  --bg-primary: #1f2937; /* gray-800 */
-  --bg-secondary: #111827; /* gray-900 */
-  --bg-tertiary: #030712; /* gray-950 */
-  --bg-accent: #fef3c738;
-  --bg-compliment: #4b5563; /* gray-600 */
-
-  --c-primary: #94a3b8; /* slate-400 */
-  --c-secondary: #cbd5e1; /* slate-300 */
-  --c-tertiary: #e2e8f0; /* slate-200 */
-
-  --c-accent: #fcd34d; /* amber-300 */
-  --c-compliment: #9ca3af; /* gray-400 */
-  --c-link: #60a5fa;
-  --c-link-transparent: rgba(37, 99, 235, 0.1);
-
-  --c-success: #4ade80; /* green-400 */
-  --c-alert: #f87171; /* red-400 */
-  --c-idle: #f59e0b; /* amber-500 */
-  --c-info: #0ea5e9; /* sky-500 */
-
-  --gradient-start: #a78bfa; /* violet-400 */
-  --gradient-end: #6366f1; /* indigo-500 */
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-primary: #1f2937; /* gray-800 */
@@ -92,6 +67,31 @@
     --gradient-start: #a78bfa; /* violet-400 */
     --gradient-end: #6366f1; /* indigo-500 */
   }
+}
+
+:root.dark {
+  --bg-primary: #1f2937; /* gray-800 */
+  --bg-secondary: #111827; /* gray-900 */
+  --bg-tertiary: #030712; /* gray-950 */
+  --bg-accent: #fef3c738;
+  --bg-compliment: #4b5563; /* gray-600 */
+
+  --c-primary: #94a3b8; /* slate-400 */
+  --c-secondary: #cbd5e1; /* slate-300 */
+  --c-tertiary: #e2e8f0; /* slate-200 */
+
+  --c-accent: #fcd34d; /* amber-300 */
+  --c-compliment: #9ca3af; /* gray-400 */
+  --c-link: #60a5fa;
+  --c-link-transparent: rgba(37, 99, 235, 0.1);
+
+  --c-success: #4ade80; /* green-400 */
+  --c-alert: #f87171; /* red-400 */
+  --c-idle: #f59e0b; /* amber-500 */
+  --c-info: #0ea5e9; /* sky-500 */
+
+  --gradient-start: #a78bfa; /* violet-400 */
+  --gradient-end: #6366f1; /* indigo-500 */
 }
 
 @custom-variant dark (&:where(.dark, .dark *));
