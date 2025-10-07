@@ -106,21 +106,6 @@ html {
   font-variant-alternates: stylistic(cv11);
 }
 
-body {
-  background: linear-gradient(
-    to bottom right,
-    var(--bg-primary),
-    var(--bg-secondary),
-    var(--bg-tertiary)
-  );
-}
-
-.dark body {
-  --bg-primary: #1f2937;
-  --bg-secondary: #111827;
-  --bg-tertiary: #030712;
-}
-
 .custom-scrollbar::-webkit-scrollbar {
   width: 0.5rem;
 }
