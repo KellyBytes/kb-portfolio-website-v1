@@ -46,7 +46,7 @@ const NavBar = () => {
   return (
     <>
       <div
-        className={`w-full lg:w-[45%] xl:w-[calc(45%-4rem)] 2xl:w-[calc(45%-8rem)] h-40 md:h-42 lg:min-h-full xl:min-h-[90vh] lg:fixed lg:top-0 xl:left-16 2xl:left-32 flex flex-col justify-start lg:justify-between lg:items-start px-8 sm:px-12 md:px-16 xl:pl-16 xl:pr-0 2xl:pl-32 pt-10 pb-0 lg:py-18 2xl:py-32 bg-[var(--bg-secondary)]/80 backdrop-blur-md lg:bg-transparent lg:backdrop-blur-none z-50 ${
+        className={`w-full lg:w-[45%] xl:w-[calc(45%-4rem)] 2xl:w-[calc(45%-8rem)] h-40 md:h-42 lg:min-h-full xl:min-h-[90vh] lg:fixed lg:top-0 xl:left-16 2xl:left-32 flex flex-col justify-start lg:justify-between lg:items-start px-8 sm:px-12 md:px-16 xl:pl-16 xl:pr-0 2xl:pl-32 pt-10 pb-4 lg:py-18 2xl:py-32 bg-[var(--bg-secondary)]/80 backdrop-blur-md lg:bg-transparent lg:backdrop-blur-none z-50 ${
           isVisible ? 'opacity-100' : 'opacity-0'
         } transition-opacity ease-in duration-1500`}
       >
@@ -54,7 +54,7 @@ const NavBar = () => {
           <div className="flex flex-col items-start w-full gap-y-1 lg:gap-y-4">
             <a
               href="#"
-              className="text-[var(--c-tertiary)] font-bold text-3xl sm:text-4xl md:text-5xl text-shadow-lg"
+              className="text-[var(--c-tertiary)] font-bold text-3xl sm:text-4xl lg:text-5xl text-shadow-lg"
               onClick={(e) => handleNavClick(e, 'home')}
             >
               Eriko Iwashita
