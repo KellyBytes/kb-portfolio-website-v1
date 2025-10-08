@@ -46,11 +46,11 @@ const NavBar = () => {
   return (
     <>
       <div
-        className={`w-full lg:w-[45%] xl:w-[calc(45%-4rem)] 2xl:w-[calc(45%-8rem)] h-40 md:h-42 lg:min-h-full xl:min-h-[90vh] lg:fixed lg:top-0 xl:left-16 2xl:left-32 flex flex-col justify-start lg:justify-between lg:items-start px-8 sm:px-12 md:px-16 xl:pl-16 xl:pr-0 2xl:pl-32 pt-10 pb-4 lg:py-18 2xl:py-32 bg-[var(--bg-secondary)]/95 lg:bg-transparent z-50 ${
+        className={`w-full lg:w-[45%] xl:w-[calc(45%-4rem)] 2xl:w-[calc(45%-8rem)] h-42 md:h-44 lg:min-h-full xl:min-h-[90vh] lg:fixed lg:top-0 xl:left-16 2xl:left-32 flex flex-col justify-between lg:justify-between lg:items-start px-8 sm:px-12 md:px-16 xl:pl-16 xl:pr-0 2xl:pl-32 pt-10 pb-4 lg:py-18 2xl:py-32 bg-[var(--bg-secondary)]/80 lg:bg-transparent backdrop-blur-md lg:backdrop-blur-none z-50 ${
           isVisible ? 'opacity-100' : 'opacity-0'
         } transition-opacity ease-in duration-1500`}
       >
-        <div className="flex flex-col h-42 justify-between lg:gap-y-4">
+        <div className="h-full flex flex-col justify-between gap-y-4 lg:gap-y-4">
           <div className="flex flex-col items-start w-full gap-y-1 lg:gap-y-4">
             <a
               href="#"
@@ -68,19 +68,6 @@ const NavBar = () => {
             </p>
           </div>
 
-          {/* Toggle Dark Mode for mobile */}
-          <button
-            onClick={toggleDarkMode}
-            className={`lg:hidden fixed top-10 right-10 sm:right-14 items-center justify-between p-1 w-7 h-7 rounded-full text-[var(--c-primary)]
-            bg-[var(--bg-compliment)] border-2 border-[var(--c-primary)] cursor-pointer`}
-          >
-            {darkMode ? (
-              <i className="bx bx-sun text-md -translate-y-0.5" />
-            ) : (
-              <i className="bx bx-moon text-md -translate-y-0.5" />
-            )}
-          </button>
-
           {/* SNS icons for mobile */}
           <div className="lg:hidden flex flex-row gap-x-4">
             {socialIcons.map((social, index) => (
@@ -94,6 +81,19 @@ const NavBar = () => {
               </a>
             ))}
           </div>
+
+          {/* Toggle Dark Mode for mobile */}
+          <button
+            onClick={toggleDarkMode}
+            className={`lg:hidden fixed top-10 right-10 sm:right-14 items-center justify-between p-1 w-7 h-7 rounded-full text-[var(--c-primary)]
+            bg-[var(--bg-compliment)] border-2 border-[var(--c-primary)] cursor-pointer`}
+          >
+            {darkMode ? (
+              <i className="bx bx-sun text-md -translate-y-0.5" />
+            ) : (
+              <i className="bx bx-moon text-md -translate-y-0.5" />
+            )}
+          </button>
 
           {/* Navigation links for desktop */}
           <div className="hidden lg:flex flex-col justify-center gap-y-4 mt-8">
@@ -185,7 +185,7 @@ const NavBar = () => {
 
       {/* Navigation links for mobile */}
       <div
-        className={`lg:hidden sticky top-0 w-full flex flex-row justify-around py-6 z-40 bg-[var(--bg-secondary)]/95 ${
+        className={`lg:hidden sticky top-0 w-full flex flex-row justify-around py-6 z-40 bg-[var(--bg-secondary)]/80 backdrop-blur-md ${
           isVisible ? 'opacity-100' : 'opacity-0'
         } transition-opacity ease-in duration-1500`}
       >
