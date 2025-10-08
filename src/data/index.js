@@ -73,7 +73,8 @@ export const projects = [
   {
     img: '/images/unit-converter.png',
     title: 'Unit Converter',
-    description: '',
+    description:
+      'A Chrome extension unit converter that converts length, weight, temperature, and more. Users can right-click selected numbers or manually input values to instantly convert between different units.',
     tags: ['Chrome Extension'],
     url: 'https://github.com/KellyBytes/ce-unit-converter',
   },
@@ -96,14 +97,16 @@ export const projects = [
   {
     img: '/images/dark-light.png',
     title: 'Dark/Light Theme UI',
-    description: '',
+    description:
+      'A responsive product landing page sample featuring a light/dark mode toggle. Designed to showcase a product with a clean layout and adaptable design across all screen sizes.',
     tags: ['React', 'Tailwind'],
     url: 'https://kb-dark-light-toggle.netlify.app/',
   },
   {
     img: '/images/shopping-cart-ui.png',
     title: 'Shopping Cart UI',
-    description: '',
+    description:
+      'A responsive online shopping site UI sample featuring a modern layout for browsing products. Designed to provide a seamless and visually appealing shopping experience across all devices.',
     tags: ['React', 'Tailwind'],
     url: 'https://kb-shopping-cart.netlify.app/',
   },
