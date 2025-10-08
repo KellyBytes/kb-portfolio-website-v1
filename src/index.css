@@ -18,6 +18,18 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+:root {
+  --bg-primary: #f8fafc; /*slate-50 */
+  --bg-secondary: #f1f5f9; /*slate-100 */
+  --bg-tertiary: #e2e8f0; /*slate-200 */
+}
+
+:root.dark {
+  --bg-primary: #1f2937; /* gray-800 */
+  --bg-secondary: #111827; /* gray-900 */
+  --bg-tertiary: #030712; /* gray-950 */
+}
+
 * {
   box-sizing: border-box;
 }
@@ -26,6 +38,24 @@ html {
   font-family: "InterVariable", sans-serif;
   font-feature-settings: "cv11" 1;
   font-variant-alternates: stylistic(cv11);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  /* overflow-x: hidden; */
+  background: linear-gradient(
+    to bottom right,
+    var(--bg-primary) 5%,
+    var(--bg-secondary) 35%,
+    var(--bg-tertiary)
+  );
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .custom-btn {

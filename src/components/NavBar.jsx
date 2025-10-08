@@ -46,7 +46,7 @@ const NavBar = () => {
   return (
     <>
       <div
-        className={`w-full lg:w-[45%] xl:w-[calc(45%-4rem)] 2xl:w-[calc(45%-8rem)] h-40 md:h-42 lg:min-h-full xl:min-h-[90vh] lg:fixed lg:top-0 xl:left-16 2xl:left-32 bg-[var(--bg-secondary)]/80 backdrop-blur-md lg:bg-transparent lg:backdrop-blur-none z-50 flex flex-col justify-start lg:justify-between lg:items-start px-8 sm:px-12 md:px-16 xl:pl-16 xl:pr-0 2xl:pl-32 pt-10 pb-0 lg:py-18 2xl:py-32 ${
+        className={`w-full lg:w-[45%] xl:w-[calc(45%-4rem)] 2xl:w-[calc(45%-8rem)] h-40 md:h-42 lg:min-h-full xl:min-h-[90vh] lg:fixed lg:top-0 xl:left-16 2xl:left-32 flex flex-col justify-start lg:justify-between lg:items-start px-8 sm:px-12 md:px-16 xl:pl-16 xl:pr-0 2xl:pl-32 pt-10 pb-0 lg:py-18 2xl:py-32 bg-[var(--bg-secondary)]/80 backdrop-blur-md lg:bg-transparent lg:backdrop-blur-none z-50 ${
           isVisible ? 'opacity-100' : 'opacity-0'
         } transition-opacity ease-in duration-1500`}
       >
@@ -185,7 +185,7 @@ const NavBar = () => {
 
       {/* Navigation links for mobile */}
       <div
-        className={`lg:hidden sticky top-0 w-full flex flex-row justify-around py-6 bg-[var(--bg-secondary)]/80 backdrop-blur-md ${
+        className={`lg:hidden sticky top-0 w-full flex flex-row justify-around py-6 z-40 bg-[var(--bg-secondary)]/80 backdrop-blur-md ${
           isVisible ? 'opacity-100' : 'opacity-0'
         } transition-opacity ease-in duration-1500`}
       >
