@@ -52,10 +52,10 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="scroll-mt-16 lg:scroll-mt-0 ld:max-w-xl xl:max-w-2xl 2xl:max-w-3xl min-h-screen px-8 pt-6 pb-12 sm:px-12 md:px-16 lg:pl-0 lg:pr-16 lg:py-18 2xl:py-32 flex flex-col justify-start items-center"
+      className="scroll-mt-14 sm:scroll-mt-16 lg:scroll-mt-0 w-full min-h-screen px-8 sm:px-12 pt-4 sm:pt-6 pb-18 lg:pl-16 xl:pl-12 2xl:pl-0 lg:pr-0 lg:pt-18 lg:pb-0 flex flex-col justify-start items-center"
     >
       <h2 className="text-2xl font-light uppercase mb-8 text-shadow-md">
-        Connect with Me
+        Get in Touch
       </h2>
       <form
         ref={form}

@@ -22,7 +22,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="scroll-mt-16 lg:scroll-mt-0 lg:max-w-xl xl:max-w-2xl 2xl:max-w-3xl min-h-screen px-8 pt-6 pb-18 lg:py-18 sm:px-12 md:px-16 lg:pl-4 lg:pr-16 2xl:py-32 flex flex-col gap-y-4 justify-start items-center "
+      className="scroll-mt-14 sm:scroll-mt-16 lg:scroll-mt-0 w-full h-fit lg:min-h-screen px-4 sm:px-12 pt-4 sm:pt-6 pb-18 md:pb-40 lg:pl-16 xl:pl-12 2xl:pl-0 lg:pr-0 lg:pt-18 lg:pb-0 flex flex-col gap-y-4 justify-start items-center "
     >
       <h2 className="text-2xl font-light uppercase text-shadow-md">
         Recent Projects
@@ -70,7 +70,10 @@ const Projects = () => {
                   }`}
                 />
               </h2>
-              <p className="font-light text-sm text-pretty max-h-28 overflow-y-auto custom-scrollbar pr-2">
+              <p
+                className="font-light text-sm text-pretty max-h-28 overflow-y-auto custom-scrollbar pr-2"
+                tabIndex={0}
+              >
                 {project.description}
               </p>
               <div className="tags flex flex-wrap gap-x-1 gap-y-2 mt-2">

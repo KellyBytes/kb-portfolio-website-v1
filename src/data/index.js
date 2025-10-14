@@ -1,8 +1,24 @@
 export const socialIcons = [
-  { icon: 'fa-brands fa-github', url: 'https://github.com/KellyBytes' },
-  { icon: 'fa-brands fa-linkedin', url: 'https://www.linkedin.com/' },
-  { icon: 'fa-brands fa-codepen', url: 'https://codepen.io/KellyBytes' },
-  { icon: 'fa-brands fa-x-twitter', url: 'https://x.com/KellyBytesCA' },
+  {
+    icon: 'fa-brands fa-github',
+    url: 'https://github.com/KellyBytes',
+    label: 'Visit my GitHub profile',
+  },
+  {
+    icon: 'fa-brands fa-linkedin',
+    url: 'https://www.linkedin.com/',
+    label: 'Visit my LinkedIn profile',
+  },
+  {
+    icon: 'fa-brands fa-codepen',
+    url: 'https://codepen.io/KellyBytes',
+    label: 'Visit my Codepen profile',
+  },
+  {
+    icon: 'fa-brands fa-x-twitter',
+    url: 'https://x.com/KellyBytesCA',
+    label: 'Visit my X profile',
+  },
 ];
 
 export const projects = [
@@ -10,9 +26,9 @@ export const projects = [
     img: '/images/news-app.png',
     title: 'News App',
     description:
-      'A dashboard-style web application that displays the latest news, current weather, and a calendar. It fetches top headlines and category-based articles from the GNews API. Users can bookmark their favorite articles to easily revisit them later.',
+      'A dashboard-style web application that displays the latest news and the current weather. It fetches top headlines and category-based articles from the GNews API. Users can bookmark their favorite articles to easily revisit them later.',
     tags: ['React', 'Tailwind', 'GNews API', 'Weather API'],
-    url: 'https://kb-news-and-blogs.netlify.app/',
+    url: 'https://kb-news-app.netlify.app/',
   },
   {
     img: '/images/ai-chat-bot.png',
