@@ -16,7 +16,7 @@ const NavBar = () => {
     element?.scrollIntoView({ behavior: 'smooth' });
     setTimeout(() => {
       isScrollingRef.current = false;
-    }, 1000);
+    }, 1500);
   };
 
   useEffect(() => {
@@ -46,7 +46,7 @@ const NavBar = () => {
   return (
     <>
       <div
-        className={`h-full flex flex-col justify-between lg:items-start px-8 sm:px-12 lg:px-0 pt-18 sm:pt-20 pb-4 lg:pt-0 lg:pb-0 z-40 ${
+        className={`h-full flex flex-col justify-between lg:items-start px-2 lg:px-0 pt-18 sm:pt-20 pb-4 lg:pt-0 lg:pb-0 z-40 ${
           isVisible ? 'opacity-100' : 'opacity-0'
         } transition-opacity ease-in duration-1500`}
       >
@@ -59,7 +59,7 @@ const NavBar = () => {
             >
               Eriko Iwashita
             </a>
-            <h2 className="text-[var(--c-secondary)] font-medium text-shadow-md">
+            <h2 className="text-[var(--c-secondary)] font-medium text-[clamp(1.125rem,1.1rem+0.125vw,1.25rem)] text-shadow-md">
               Front End Developer
             </h2>
             <p className="hidden lg:block lg:w-80 text-wrap text-shadow-sm font-light">
@@ -87,7 +87,7 @@ const NavBar = () => {
           </div>
 
           {/* Navigation links */}
-          <div className="nav-links w-full fixed top-0 left-0 lg:static flex flex-row lg:flex-col justify-around lg:justify-center py-4 z-50 px-10 sm:px-16 md:px-20 lg:px-0 lg:gap-y-4 bg-[var(--bg-secondary)]/70 backdrop-blur-md lg:bg-transparent lg:backdrop-blur-none">
+          <div className="nav-links w-full fixed top-0 left-0 lg:static flex flex-row lg:flex-col justify-around lg:justify-center py-4 z-50 px-0 lg:gap-y-4 bg-[var(--bg-secondary)]/70 backdrop-blur-md lg:bg-transparent lg:backdrop-blur-none">
             <a
               href="#home"
               className={`group text-sm lg:text-base font-light uppercase tracking-wide text-shadow-sm relative ${

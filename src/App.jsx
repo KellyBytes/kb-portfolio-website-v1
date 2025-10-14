@@ -7,7 +7,7 @@ import { ThemeProvider } from './context/ThemeContext';
 const App = () => {
   return (
     <ThemeProvider>
-      <div className="portfolio-container flex flex-col lg:flex-row min-h-screen w-[clamp(18.75rem,6.1rem+63.25vw,82rem))] mx-auto text-[var(--c-primary)] relative">
+      <div className="portfolio-container flex flex-col lg:flex-row min-h-screen w-[clamp(19rem,90vw,75rem)] mx-auto text-[var(--c-primary)] relative">
         <nav className="navbar w-full h-auto lg:w-[40%] lg:h-[80vh] lg:sticky lg:top-[4.5rem] self-start">
           <NavBar />
         </nav>

@@ -12,7 +12,7 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className={`scroll-mt-80 lg:scroll-mt-0 w-full h-fit lg:min-h-screen px-8 sm:px-12 pt-4 sm:pt-6 pb-18 md:pb-40 lg:pl-16 xl:pl-12 2xl:pl-0 lg:pr-0 lg:pt-18 lg:pb-0 flex flex-col gap-y-4 ${
+      className={`scroll-mt-80 lg:scroll-mt-0 w-full h-fit lg:min-h-screen px-2 pt-4 sm:pt-6 pb-18 md:pb-40 lg:pl-16 lg:pr-0 xl:pl-12 2xl:pl-20 lg:pt-18 lg:pb-0 flex flex-col gap-y-4 ${
         isVisible ? 'opacity-100' : 'opacity-0'
       } transition-opacity duration-1500`}
     >
@@ -26,17 +26,23 @@ const Hero = () => {
       <p className="text-pretty font-light leading-5">
         My goal is to craft seamless digital experiences that balance
         functionality, efficiency, and aesthetics. Proficient in{' '}
-        <span className="font-bold">HTML</span>,{' '}
-        <span className="font-bold">CSS</span>,{' '}
-        <span className="font-bold">JavaScript</span>,{' '}
-        <span className="font-bold">TypeScript</span>,{' '}
-        <span className="font-bold">React</span>,{' '}
-        <span className="font-bold">Node.js</span>,{' '}
-        <span className="font-bold">Tailwind</span>,{' '}
-        <span className="font-bold">Git</span>, and{' '}
-        <span className="font-bold">Figma</span>, I develop fully responsive,
-        interactive, and scalable applications tailored to meet the specific
-        needs of my clients.
+        <span className="font-semibold text-[var(--c-tertiary)]">HTML</span>,{' '}
+        <span className="font-semibold text-[var(--c-tertiary)]">CSS</span>,{' '}
+        <span className="font-semibold text-[var(--c-tertiary)]">
+          JavaScript
+        </span>
+        ,{' '}
+        <span className="font-semibold text-[var(--c-tertiary)]">
+          TypeScript
+        </span>
+        , <span className="font-semibold text-[var(--c-tertiary)]">React</span>,{' '}
+        <span className="font-semibold text-[var(--c-tertiary)]">Node.js</span>,{' '}
+        <span className="font-semibold text-[var(--c-tertiary)]">Tailwind</span>
+        , <span className="font-semibold text-[var(--c-tertiary)]">Git</span>,
+        and{' '}
+        <span className="font-semibold text-[var(--c-tertiary)]">Figma</span>, I
+        develop fully responsive, interactive, and scalable applications
+        tailored to meet the specific needs of my clients.
       </p>
       <p className="text-pretty font-light leading-5">
         With a strong focus on UI/UX design, I strive to ensure that every

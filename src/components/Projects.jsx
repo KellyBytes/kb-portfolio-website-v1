@@ -22,7 +22,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="scroll-mt-14 sm:scroll-mt-16 lg:scroll-mt-0 w-full h-fit lg:min-h-screen px-4 sm:px-12 pt-4 sm:pt-6 pb-18 md:pb-40 lg:pl-16 xl:pl-12 2xl:pl-0 lg:pr-0 lg:pt-18 lg:pb-0 flex flex-col gap-y-4 justify-start items-center "
+      className="scroll-mt-14 sm:scroll-mt-16 lg:scroll-mt-0 w-full h-fit lg:min-h-screen px-2 pt-4 sm:pt-6 pb-18 md:pb-40 lg:pl-16 lg:pr-0 xl:pl-12 2xl:pl-0 lg:pt-18 lg:pb-0 flex flex-col gap-y-4 justify-start items-center "
     >
       <h2 className="text-2xl font-light uppercase text-shadow-md">
         Recent Projects
@@ -51,7 +51,7 @@ const Projects = () => {
             <img
               src={project.img}
               alt={project.title}
-              className="w-48 sm:w-34 lg:w-30 object-contain self-center sm:self-start sm:pl-6 py-6 sm:mr-8 lg:mr-8"
+              className="w-48 sm:w-36 md:w-40 lg:w-30 xl:w-40 object-contain self-center sm:self-start sm:pl-6 py-6 sm:mr-8 lg:mr-8"
             />
             <div className="flex flex-col py-4 px-4 lg:pl-0 lg:pr-4 gap-y-2">
               <h2

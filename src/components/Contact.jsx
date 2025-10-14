@@ -52,7 +52,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="scroll-mt-14 sm:scroll-mt-16 lg:scroll-mt-0 w-full min-h-screen px-8 sm:px-12 pt-4 sm:pt-6 pb-18 lg:pl-16 xl:pl-12 2xl:pl-0 lg:pr-0 lg:pt-18 lg:pb-0 flex flex-col justify-start items-center"
+      className="scroll-mt-14 sm:scroll-mt-16 lg:scroll-mt-0 w-full min-h-screen px-2 pt-4 sm:pt-6 pb-18 lg:pl-16 xl:pl-12 2xl:pl-0 lg:pr-0 lg:pt-18 lg:pb-0 flex flex-col justify-start items-center"
     >
       <h2 className="text-2xl font-light uppercase mb-8 text-shadow-md">
         Get in Touch
@@ -69,7 +69,7 @@ const Contact = () => {
             name="name"
             required
             placeholder="Enter your name"
-            className="w-[clamp(18.75rem,15rem+18.75vw,37.5rem)] h-10 pl-3 mt-1 text-[var(--c-secondary)] bg-[var(--bg-secondary)] outline-0 border border-[var(--c-accent)] rounded-md placeholder-gray-400 dark:placeholder-amber-400/40"
+            className="w-[clamp(19rem,85vw,28rem)] lg:w-[clamp(30rem,18rem+35.556vw,34rem)] h-10 pl-3 mt-1 text-[var(--c-secondary)] bg-[var(--bg-secondary)] outline-0 border border-[var(--c-accent)] rounded-md placeholder-gray-400 dark:placeholder-amber-400/40"
           />
         </label>
         <label className="flex flex-col text-shadow-sm">
@@ -79,7 +79,7 @@ const Contact = () => {
             name="email"
             required
             placeholder="abc@example.com"
-            className="w-[clamp(18.75rem,15rem+18.75vw,37.5rem)] h-10 pl-3 mt-1 text-[var(--c-secondary)] bg-[var(--bg-secondary)] outline-0 border border-[var(--c-accent)] rounded-md placeholder-gray-400 dark:placeholder-amber-400/40"
+            className="w-[clamp(19rem,85vw,28rem)] lg:w-[clamp(30rem,18rem+35.556vw,34rem)] h-10 pl-3 mt-1 text-[var(--c-secondary)] bg-[var(--bg-secondary)] outline-0 border border-[var(--c-accent)] rounded-md placeholder-gray-400 dark:placeholder-amber-400/40"
           />
         </label>
         <label className="flex flex-col text-shadow-sm">
@@ -91,7 +91,7 @@ const Contact = () => {
             onChange={handleChange}
             placeholder="(XXX) XXX-XXXX"
             maxLength={14}
-            className="w-[clamp(18.75rem,15rem+18.75vw,37.5rem)] h-10 pl-3 mt-1 text-[var(--c-secondary)] bg-[var(--bg-secondary)] outline-0 border border-[var(--c-accent)] rounded-md placeholder-gray-400 dark:placeholder-amber-400/40"
+            className="w-[clamp(19rem,85vw,28rem)] lg:w-[clamp(30rem,18rem+35.556vw,34rem)] h-10 pl-3 mt-1 text-[var(--c-secondary)] bg-[var(--bg-secondary)] outline-0 border border-[var(--c-accent)] rounded-md placeholder-gray-400 dark:placeholder-amber-400/40"
           />
         </label>
         <label className="flex flex-col text-shadow-sm">
@@ -100,12 +100,12 @@ const Contact = () => {
             name="message"
             required
             placeholder="Type your message here..."
-            className="w-[clamp(18.75rem,15rem+18.75vw,37.5rem)] pl-3 mt-1 text-[var(--c-secondary)] bg-[var(--bg-secondary)] outline-0 border border-[var(--c-accent)] rounded-md placeholder-gray-400 dark:placeholder-amber-400/40 min-h-30 max-h-50 resize-y p-3"
+            className="w-[clamp(19rem,85vw,28rem)] lg:w-[clamp(30rem,18rem+35.556vw,34rem)] pl-3 mt-1 text-[var(--c-secondary)] bg-[var(--bg-secondary)] outline-0 border border-[var(--c-accent)] rounded-md placeholder-gray-400 dark:placeholder-amber-400/40 min-h-30 max-h-50 resize-y p-3"
           ></textarea>
         </label>
         <button
           type="submit"
-          className={`w-[clamp(18.75rem,15rem+18.75vw,37.5rem)] h-10 mt-2 custom-btn ${
+          className={`w-[clamp(19rem,85vw,28rem)] lg:w-[clamp(30rem,18rem+35.556vw,34rem)] h-10 mt-2 custom-btn ${
             isThemeChanging ? 'transition-none' : 'transition duration-300'
           }`}
         >
