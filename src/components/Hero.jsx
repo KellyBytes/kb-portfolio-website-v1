@@ -38,10 +38,9 @@ const Hero = () => {
         , <span className="font-semibold text-[var(--c-tertiary)]">React</span>,{' '}
         <span className="font-semibold text-[var(--c-tertiary)]">Node.js</span>,{' '}
         <span className="font-semibold text-[var(--c-tertiary)]">Tailwind</span>
-        , <span className="font-semibold text-[var(--c-tertiary)]">Git</span>,
-        and{' '}
-        <span className="font-semibold text-[var(--c-tertiary)]">Figma</span>, I
-        develop fully responsive, interactive, and scalable applications
+        , <span className="font-semibold text-[var(--c-tertiary)]">Figma</span>,
+        and <span className="font-semibold text-[var(--c-tertiary)]">Git</span>,
+        I develop fully responsive, interactive, and scalable applications
         tailored to meet the specific needs of my clients.
       </p>
       <p className="text-pretty font-light leading-5">
