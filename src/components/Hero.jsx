@@ -19,9 +19,9 @@ const Hero = () => {
       <p className="text-pretty font-light leading-5">
         As a former mechanical engineer and technical translator, I bring a
         unique perspective to web development, drawing on my diverse experiences
-        across various industries. Now, as a passionate web developer, I
-        specialize in creating accessible and interactive applications that
-        enhance the digital landscape.
+        across various industries. Now, as a passionate self-taught web
+        developer, I specialize in creating accessible and interactive
+        applications that enhance the digital landscape.
       </p>
       <p className="text-pretty font-light leading-5">
         My goal is to craft seamless digital experiences that balance

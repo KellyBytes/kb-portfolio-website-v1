@@ -56,6 +56,13 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  -ms-overflow-style: none; /* IE, Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
 }
 
 .custom-btn {

@@ -31,7 +31,7 @@ const Projects = () => {
         {projects.slice(0, visibleCount).map((project, projectIndex) => (
           <a
             key={projectIndex}
-            className={`project w-full flex flex-col-reverse sm:flex-row mx-auto my-6 bg-[var(--bg-tertiary)] hover:bg-[var(--bg-primary)] rounded-md hover:ring hover:ring-[var(--c-compliment)]/20 hover:shadow-md hover:shadow-[var(--c-compliment)]/20 group ${
+            className={`project w-full sm:h-48 flex flex-col-reverse sm:flex-row justify-between gap-x-4 my-6 bg-[var(--bg-tertiary)] hover:bg-[var(--bg-primary)] rounded-md hover:ring hover:ring-[var(--c-compliment)]/20 hover:shadow-md hover:shadow-[var(--c-compliment)]/20 group ${
               isThemeChanging ? 'transition-none' : 'transition duration-300'
             }
             transition-all ease-out
@@ -51,9 +51,9 @@ const Projects = () => {
             <img
               src={project.img}
               alt={project.title}
-              className="w-48 sm:w-36 md:w-40 lg:w-30 xl:w-40 object-contain self-center sm:self-start sm:pl-6 py-6 sm:mr-8 lg:mr-8"
+              className="w-[16rem] sm:w-[12rem] md:w-[14rem] lg:w-[12rem] xl:w-[14rem] h-full aspect-[3/2] object-cover mx-auto sm:pl-6 sm:pr-0 my-6 py-0 sm:my-0 sm:py-6"
             />
-            <div className="flex flex-col py-4 px-4 lg:pl-0 lg:pr-4 gap-y-2">
+            <div className="w-full flex flex-col py-4 px-4 gap-y-2">
               <h2
                 className={`font-bold text-[var(--c-tertiary)] group-hover:text-[var(--c-accent)] text-shadow-sm ${
                   isThemeChanging
@@ -71,7 +71,7 @@ const Projects = () => {
                 />
               </h2>
               <p
-                className="font-light text-sm text-pretty max-h-28 overflow-y-auto custom-scrollbar pr-2"
+                className="text-sm text-pretty max-h-28 overflow-y-auto custom-scrollbar pr-2"
                 tabIndex={0}
               >
                 {project.description}
