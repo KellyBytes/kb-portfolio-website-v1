@@ -59,10 +59,11 @@ const Hero = () => {
         contribute to innovative projects and help bring ideas to life.
       </p>
       <a
-        href="#"
+        href="/resume.pdf"
         className={`resume text-[var(--c-accent)] mt-4 text-shadow-sm hover:opacity-80 ${
           isThemeChanging ? 'transition-none' : 'transition duration-300'
         }`}
+        target="_blank"
       >
         View Full Résumé{' '}
         <i className="fa-solid fa-arrow-up-right-from-square" />
