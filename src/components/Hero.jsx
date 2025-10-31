@@ -16,16 +16,15 @@ const Hero = () => {
         isVisible ? 'opacity-100' : 'opacity-0'
       } transition-opacity duration-1500`}
     >
-      <p className="text-pretty font-light leading-5">
-        As a former mechanical engineer and technical translator, I bring a
-        unique perspective to web development, drawing on my diverse experiences
-        across various industries. Now, as a passionate self-taught web
-        developer, I specialize in creating accessible and interactive
-        applications that enhance the digital landscape.
+      <p className="text-pretty font-light leading-snug">
+        I am a self-taught frontend web developer focused on building
+        accessible, interactive, and responsive applications. My background in
+        mechanical engineering and technical translation gives me a unique
+        perspective on problem-solving and design in web development.
       </p>
-      <p className="text-pretty font-light leading-5">
-        My goal is to craft seamless digital experiences that balance
-        functionality, efficiency, and aesthetics. Proficient in{' '}
+      <p className="text-pretty font-light leading-snug">
+        I aim to craft seamless digital experiences that balance functionality,
+        efficiency, and aesthetics. Skilled in{' '}
         <span className="font-semibold text-[var(--c-tertiary)]">HTML</span>,{' '}
         <span className="font-semibold text-[var(--c-tertiary)]">CSS</span>,{' '}
         <span className="font-semibold text-[var(--c-tertiary)]">
@@ -39,24 +38,21 @@ const Hero = () => {
         <span className="font-semibold text-[var(--c-tertiary)]">Node.js</span>,{' '}
         <span className="font-semibold text-[var(--c-tertiary)]">Tailwind</span>
         , <span className="font-semibold text-[var(--c-tertiary)]">Figma</span>,
-        and <span className="font-semibold text-[var(--c-tertiary)]">Git</span>,
-        I develop fully responsive, interactive, and scalable applications
-        tailored to meet the specific needs of my clients.
+        and{' '}
+        <span className="font-semibold text-[var(--c-tertiary)]">
+          Git/GitHub
+        </span>
+        , I build applications that are not only visually appealing but also
+        intuitive and user-friendly. With a strong focus on UI/UX, I ensure
+        every project I work on meets the specific needs of its users.
       </p>
-      <p className="text-pretty font-light leading-5">
-        With a strong focus on UI/UX design, I strive to ensure that every
-        website or application I build is not only visually stunning but also
-        intuitive and user friendly. My enthusiasm for learning keeps me ahead
-        of the curve, as I continually explore emerging technologies and stay
-        current with industry trends.
-      </p>
-      <p className="text-pretty font-light leading-5">
-        For me, web development is more than just writing code; it's about
-        creating meaningful digital experiences that resonate. Whether I’m
-        designing a sleek landing page, developing a complex web application, or
-        optimizing existing projects, I tackle every challenge with dedication,
-        creativity, and precision. I am excited about the opportunity to
-        contribute to innovative projects and help bring ideas to life.
+      <p className="text-pretty font-light leading-snug">
+        For me, web development is more than writing code—it’s about creating
+        meaningful digital experiences that resonate. Whether designing a sleek
+        landing page, developing a complex web application, or optimizing
+        existing projects, I approach each challenge with creativity, precision,
+        and dedication. I am passionate about turning innovative ideas into
+        functional, impactful digital solutions.
       </p>
       <a
         href="/resume.pdf"
