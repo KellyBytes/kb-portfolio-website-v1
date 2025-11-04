@@ -6,7 +6,7 @@ export const socialIcons = [
   },
   {
     icon: 'fa-brands fa-linkedin',
-    url: 'https://www.linkedin.com/',
+    url: 'https://www.linkedin.com/in/erikoiwashita/',
     label: 'Visit my LinkedIn profile',
   },
   {
@@ -28,7 +28,15 @@ export const projects = [
     description:
       'A reading tracker web application powered by the Google Books API. Users can search and save books, track reading progress, set due, and add their own ratings and notes.',
     tags: ['React', 'Tailwind', 'GBooks API'],
-    url: 'https://kb-bookworm.netlify.app/',
+    url: 'https://github.com/KellyBytes/bookworm',
+  },
+  {
+    img: '/images/ai-chat-bot.png',
+    title: 'AI Chat Bot',
+    description:
+      'A fully responsive, single-page web application powered by the OpenAI API. It allows users to interact with an AI model, manage multiple chat sessions, and save or delete conversations. The app includes light/dark theme support, formatted responses for readability, and smooth scrolling for an intuitive user experience.',
+    tags: ['React', 'OpenAI API'],
+    url: 'https://github.com/KellyBytes/ai-chat-bot',
   },
   {
     img: '/images/news-app.png',
@@ -36,15 +44,7 @@ export const projects = [
     description:
       'A dashboard-style web application that displays the latest news and the current weather. It fetches top headlines and category-based articles from the GNews API. Users can bookmark their favorite articles to easily revisit them later.',
     tags: ['React', 'Tailwind', 'GNews API', 'Weather API'],
-    url: 'https://kb-news-app.netlify.app/',
-  },
-  {
-    img: '/images/ai-chat-bot.png',
-    title: 'AI Chat Bot',
-    description:
-      'A chat application powered by the OpenAI API. It automatically saves chat history, with options to delete conversations if desired. Responses are neatly formatted for readability. Supports light/dark mode.',
-    tags: ['React', 'OpenAI API'],
-    url: 'https://kb-ai-chat-bot.netlify.app/',
+    url: 'https://github.com/KellyBytes/news-app',
   },
   {
     img: '/images/caffiend.png',
@@ -52,7 +52,7 @@ export const projects = [
     description:
       'A caffeine tracker app where users log drinks by type, cost, and time. It estimates caffeine levels in the body, shows stats and history with details. Supports light/dark mode, and uses Firebase for user and data management.',
     tags: ['React', 'JavaScript', 'Firebase'],
-    url: 'https://kb-caffiend.netlify.app/',
+    url: 'https://github.com/KellyBytes/caffiend',
   },
   {
     img: '/images/copacetic.png',
@@ -60,7 +60,7 @@ export const projects = [
     description:
       'A spaced-repetition vocabulary app where users type words from meanings. It shows letter blocks, highlights errors, optimizes review intervals, and motivates daily study with a 24-hour streak system.',
     tags: ['React', 'JavaScript'],
-    url: 'https://kb-word-learning-app.netlify.app/',
+    url: 'https://github.com/KellyBytes/copacetic',
   },
   {
     img: '/images/color-converter-app.png',
@@ -68,7 +68,7 @@ export const projects = [
     description:
       'A web app that converts HEX and RGB values in real time. Changing one updates the other and the background color. HEX codes are copyable with one click.',
     tags: ['React', 'Tailwind'],
-    url: 'https://kb-color-converter-app.netlify.app/',
+    url: 'https://github.com/KellyBytes/color-converter-app',
   },
   {
     img: '/images/todo-app.png',
@@ -76,7 +76,7 @@ export const projects = [
     description:
       'A task manager where users add, edit, and delete todos with or without due dates. Tasks can be filtered, sorted, color-coded by status, and viewed in light or dark mode.',
     tags: ['React'],
-    url: 'https://kb-todos-app.netlify.app/',
+    url: 'https://github.com/KellyBytes/sj-todo-app',
   },
   {
     img: '/images/world-weather-app.png',
@@ -84,7 +84,7 @@ export const projects = [
     description:
       'A simple weather app built with React, TypeScript, and the OpenWeatherMap API. Users can search any city to view current temperature and conditions, displayed with intuitive weather icons.',
     tags: ['React', 'TypeScript', 'Weather API'],
-    url: 'https://kb-world-weather-2.netlify.app/',
+    url: 'https://github.com/KellyBytes/fra-weather-app-2',
   },
   {
     img: '/images/pokedex.png',
@@ -92,7 +92,7 @@ export const projects = [
     description:
       'A Pokédex app where users can search Pokémon by ID or name. It displays each Pokémon’s type, stats like HP and Attack, and allows sorting Moves alphabetically in ascending or descending order.',
     tags: ['React', 'PokeAPI'],
-    url: 'https://kb-reactjs-pokedex.netlify.app/',
+    url: 'https://github.com/KellyBytes/pokedex',
   },
   {
     img: '/images/unit-converter.png',
@@ -108,7 +108,7 @@ export const projects = [
     description:
       'A simple, calendar app that lets users add events with specific times using a date picker. Designed for ease of scheduling and viewing across different devices.',
     tags: ['React'],
-    url: 'https://kb-calendar-app.netlify.app/',
+    url: 'https://github.com/KellyBytes/calendar-app',
   },
   {
     img: '/images/faq-ui.png',
@@ -116,7 +116,7 @@ export const projects = [
     description:
       'A FAQ sample page where users can expand or collapse answers for each question. It also includes a light/dark mode toggle for better accessibility and user experience.',
     tags: ['React', 'Tailwind'],
-    url: 'https://kb-faq-accordion.netlify.app/',
+    url: 'https://github.com/KellyBytes/faq-accordion',
   },
   {
     img: '/images/dark-light.png',
@@ -124,7 +124,7 @@ export const projects = [
     description:
       'A product landing page sample featuring a light/dark mode toggle. Designed to showcase a product with a clean layout and adaptable design across all screen sizes.',
     tags: ['React', 'Tailwind'],
-    url: 'https://kb-dark-light-toggle.netlify.app/',
+    url: 'https://github.com/KellyBytes/dark-light-toggle',
   },
   {
     img: '/images/shopping-cart-ui.png',
@@ -132,13 +132,13 @@ export const projects = [
     description:
       'A online shopping site UI sample featuring a modern layout for browsing products. Designed to provide a seamless and visually appealing shopping experience across all devices.',
     tags: ['React', 'Tailwind'],
-    url: 'https://kb-shopping-cart.netlify.app/',
+    url: 'https://github.com/KellyBytes/shopping-cart',
   },
   {
     img: '/images/quotes-app.png',
     title: 'Quotes App',
     description: 'A quotes app that shows famous quotes.',
     tags: ['React', 'Quotes API'],
-    url: 'https://kb-quotes-app.netlify.app/',
+    url: 'https://github.com/KellyBytes/quotes-app',
   },
 ];
