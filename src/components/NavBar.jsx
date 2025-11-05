@@ -63,8 +63,8 @@ const NavBar = () => {
               Front-End Developer
             </h2>
             <p className="hidden lg:block lg:w-80 text-wrap text-shadow-sm font-light">
-              Creating accessible and engaging web experiences with precision
-              and creativity.
+              Crafting accessible and engaging web experiences with precision
+              and creativity
             </p>
           </div>
 
