@@ -60,10 +60,11 @@ const NavBar = () => {
               Eriko Iwashita
             </a>
             <h2 className="text-[var(--c-secondary)] font-medium text-[clamp(1.125rem,1.1rem+0.125vw,1.25rem)] text-shadow-md">
-              Front End Developer
+              Front-End Developer
             </h2>
             <p className="hidden lg:block lg:w-80 text-wrap text-shadow-sm font-light">
-              Creating seamless, user-focused experiences on the web.
+              Creating accessible and engaging web experiences with precision
+              and creativity.
             </p>
           </div>
 

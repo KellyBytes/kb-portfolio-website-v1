@@ -47,20 +47,20 @@ export const projects = [
     url: 'https://github.com/KellyBytes/news-app',
   },
   {
-    img: '/images/caffiend.png',
-    title: 'Caffeine Tracker App',
-    description:
-      'A caffeine tracker app where users log drinks by type, cost, and time. It estimates caffeine levels in the body, shows stats and history with details. Supports light/dark mode, and uses Firebase for user and data management.',
-    tags: ['React', 'JavaScript', 'Firebase'],
-    url: 'https://github.com/KellyBytes/caffiend',
-  },
-  {
     img: '/images/copacetic.png',
     title: 'Word Learning App',
     description:
       'A spaced-repetition vocabulary app where users type words from meanings. It shows letter blocks, highlights errors, optimizes review intervals, and motivates daily study with a 24-hour streak system.',
     tags: ['React', 'JavaScript'],
     url: 'https://github.com/KellyBytes/copacetic',
+  },
+  {
+    img: '/images/caffiend.png',
+    title: 'Caffeine Tracker App',
+    description:
+      'A caffeine tracker app where users log drinks by type, cost, and time. It estimates caffeine levels in the body, shows stats and history with details. Supports light/dark mode, and uses Firebase for user and data management.',
+    tags: ['React', 'JavaScript', 'Firebase'],
+    url: 'https://github.com/KellyBytes/caffiend',
   },
   {
     img: '/images/color-converter-app.png',
@@ -111,6 +111,14 @@ export const projects = [
     url: 'https://github.com/KellyBytes/calendar-app',
   },
   {
+    img: '/images/shopping-cart-ui.png',
+    title: 'Shopping Cart UI',
+    description:
+      'A online shopping site UI sample featuring a modern layout for browsing products. Designed to provide a seamless and visually appealing shopping experience across all devices.',
+    tags: ['React', 'Tailwind'],
+    url: 'https://github.com/KellyBytes/shopping-cart',
+  },
+  {
     img: '/images/faq-ui.png',
     title: 'FAQ UI',
     description:
@@ -125,14 +133,6 @@ export const projects = [
       'A product landing page sample featuring a light/dark mode toggle. Designed to showcase a product with a clean layout and adaptable design across all screen sizes.',
     tags: ['React', 'Tailwind'],
     url: 'https://github.com/KellyBytes/dark-light-toggle',
-  },
-  {
-    img: '/images/shopping-cart-ui.png',
-    title: 'Shopping Cart UI',
-    description:
-      'A online shopping site UI sample featuring a modern layout for browsing products. Designed to provide a seamless and visually appealing shopping experience across all devices.',
-    tags: ['React', 'Tailwind'],
-    url: 'https://github.com/KellyBytes/shopping-cart',
   },
   {
     img: '/images/quotes-app.png',

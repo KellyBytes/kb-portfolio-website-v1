@@ -17,10 +17,12 @@ const Hero = () => {
       } transition-opacity duration-1500`}
     >
       <p className="text-pretty font-light leading-snug">
-        I am a self-taught frontend web developer focused on building
-        accessible, interactive, and responsive applications. My background in
-        mechanical engineering and technical translation gives me a unique
-        perspective on problem-solving and design in web development.
+        I am a self-taught front-end developer focused on building accessible,
+        interactive, and responsive applications. My background in mechanical
+        engineering and technical translation gives me a unique perspective on
+        problem-solving and design in web development. I am deeply interested in
+        improving <i>accessibility</i> and continuously refining existing
+        projects through the <i>debugging</i> and <i>optimization</i>.
       </p>
       <p className="text-pretty font-light leading-snug">
         I aim to craft seamless digital experiences that balance functionality,
@@ -43,17 +45,19 @@ const Hero = () => {
           Git/GitHub
         </span>
         , I build applications that are not only visually appealing but also
-        intuitive and user-friendly. With a strong focus on UI/UX, I ensure
-        every project I work on meets the specific needs of its users.
+        intuitive and user-friendly. With a strong focus on UI/UX and
+        accessibility, I ensure every project I work on meets the specific needs
+        of its users.
       </p>
       <p className="text-pretty font-light leading-snug">
         For me, web development is more than writing code—it’s about creating
         meaningful digital experiences that resonate. Whether designing a sleek
-        landing page, developing a complex web application, or optimizing
-        existing projects, I approach each challenge with creativity, precision,
-        and dedication. I am passionate about turning innovative ideas into
-        functional, impactful digital solutions.
+        landing page, developing a complex web application, or enhancing and
+        optimizing existing solutions, I approach each challenge with
+        creativity, precision, and dedication. I am passionate about turning
+        innovative ideas into functional, impactful digital experiences.
       </p>
+
       <a
         href="/resume.pdf"
         className={`resume text-[var(--c-accent)] mt-4 text-shadow-sm hover:opacity-80 ${
