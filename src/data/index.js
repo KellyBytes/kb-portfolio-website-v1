@@ -39,6 +39,14 @@ export const projects = [
     url: 'https://github.com/KellyBytes/ai-chat-bot',
   },
   {
+    img: '/images/moodiary.png',
+    title: 'Mood Tracker App',
+    description:
+      'A simple and intuitive daily mood-tracking application. After authenticating, users can select one of five mood icons to record how they feel each day. The app visualizes mood history on a monthly calendar and provides key insights such as streaks and average mood.',
+    tags: ['React', 'Next.js', 'Tailwind', 'Firebase'],
+    url: 'https://github.com/KellyBytes/moodiary',
+  },
+  {
     img: '/images/news-app.png',
     title: 'News App',
     description:
