@@ -21,8 +21,9 @@ const Hero = () => {
         interactive, and responsive applications. My background in mechanical
         engineering and technical translation gives me a unique perspective on
         problem-solving and design in web development. I am deeply interested in
-        improving <i>accessibility</i> and continuously refining existing
-        projects through the <i>debugging</i> and <i>optimization</i>.
+        improving <i>accessibility</i>, adding <i>new features</i>, and
+        continuously refining existing projects through <i>debugging</i> and{' '}
+        <i>optimization</i>.
       </p>
       <p className="text-pretty font-light leading-snug">
         I aim to craft seamless digital experiences that balance functionality,
@@ -37,6 +38,7 @@ const Hero = () => {
           TypeScript
         </span>
         , <span className="font-semibold text-[var(--c-tertiary)]">React</span>,{' '}
+        <span className="font-semibold text-[var(--c-tertiary)]">Next.js</span>,{' '}
         <span className="font-semibold text-[var(--c-tertiary)]">Node.js</span>,{' '}
         <span className="font-semibold text-[var(--c-tertiary)]">Tailwind</span>
         , <span className="font-semibold text-[var(--c-tertiary)]">Figma</span>,
@@ -45,9 +47,16 @@ const Hero = () => {
           Git/GitHub
         </span>
         , I build applications that are not only visually appealing but also
-        intuitive and user-friendly. With a strong focus on UI/UX and
-        accessibility, I ensure every project I work on meets the specific needs
-        of its users.
+        intuitive and user-friendly. While my core focus is front-end
+        development, I am actively expanding into full-stack development to
+        better understand end-to-end workflows and deliver more robust, scalable
+        solutions.
+      </p>
+      <p className="text-pretty font-light leading-snug">
+        As a quick learner and adaptable self-starter, I thrive in environments
+        where continuous improvement and problem-solving are essential. With a
+        strong focus on UI/UX and accessibility, I ensure every project I work
+        on meets the specific needs of its users.
       </p>
       <p className="text-pretty font-light leading-snug">
         For me, web development is more than writing code—it’s about creating
