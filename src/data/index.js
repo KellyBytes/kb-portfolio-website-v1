@@ -24,7 +24,7 @@ export const socialIcons = [
 export const projects = [
   {
     img: '/images/kellystore.png',
-    title: 'Reading Tracker App',
+    title: 'E-commerce App',
     description:
       'A digital shop for printable templates and hand-drawn icons, built with a full-stack approach. Stripe Test Mode lets users interact with real checkout flows safely. Its focus is on simple, elegant design and boosting productivity.',
     tags: ['Next.js', 'React', 'Stripe API', 'AWS amplify'],
