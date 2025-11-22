@@ -23,6 +23,14 @@ export const socialIcons = [
 
 export const projects = [
   {
+    img: '/images/kellystore.png',
+    title: 'Reading Tracker App',
+    description:
+      'A digital shop for printable templates and hand-drawn icons, built with a full-stack approach. Stripe Test Mode lets users interact with real checkout flows safely. Its focus is on simple, elegant design and boosting productivity.',
+    tags: ['Next.js', 'React', 'Stripe API', 'AWS amplify'],
+    url: 'https://github.com/KellyBytes/kellystore',
+  },
+  {
     img: '/images/bookworm.png',
     title: 'Reading Tracker App',
     description:
@@ -43,7 +51,7 @@ export const projects = [
     title: 'Mood Tracker App',
     description:
       'A simple and intuitive daily mood-tracking application. After authenticating, users can select one of five mood icons to record how they feel each day. The app visualizes mood history on a monthly calendar and provides key insights such as streaks and average mood.',
-    tags: ['React', 'Next.js', 'Tailwind', 'Firebase'],
+    tags: ['Next.js', 'React', 'Tailwind', 'Firebase'],
     url: 'https://github.com/KellyBytes/moodiary',
   },
   {
