@@ -47,14 +47,6 @@ export const projects = [
     url: 'https://github.com/KellyBytes/ai-chat-bot',
   },
   {
-    img: '/images/moodiary.png',
-    title: 'Mood Tracker App',
-    description:
-      'A simple and intuitive daily mood-tracking application. After authenticating, users can select one of five mood icons to record how they feel each day. The app visualizes mood history on a monthly calendar and provides key insights such as streaks and average mood.',
-    tags: ['Next.js', 'React', 'Tailwind', 'Firebase'],
-    url: 'https://github.com/KellyBytes/moodiary',
-  },
-  {
     img: '/images/news-app.png',
     title: 'News App',
     description:
@@ -63,12 +55,12 @@ export const projects = [
     url: 'https://github.com/KellyBytes/news-app',
   },
   {
-    img: '/images/copacetic.png',
-    title: 'Word Learning App',
+    img: '/images/moodiary.png',
+    title: 'Mood Tracker App',
     description:
-      'A spaced-repetition vocabulary app where users type words from meanings. It shows letter blocks, highlights errors, optimizes review intervals, and motivates daily study with a 24-hour streak system.',
-    tags: ['React', 'JavaScript'],
-    url: 'https://github.com/KellyBytes/copacetic',
+      'A simple and intuitive daily mood-tracking application. After authenticating, users can select one of five mood icons to record how they feel each day. The app visualizes mood history on a monthly calendar and provides key insights such as streaks and average mood.',
+    tags: ['Next.js', 'React', 'Tailwind', 'Firebase'],
+    url: 'https://github.com/KellyBytes/moodiary',
   },
   {
     img: '/images/caffiend.png',
@@ -77,6 +69,14 @@ export const projects = [
       'A caffeine tracker app where users log drinks by type, cost, and time. It estimates caffeine levels in the body, shows stats and history with details. Supports light/dark mode, and uses Firebase for user and data management.',
     tags: ['React', 'JavaScript', 'Firebase'],
     url: 'https://github.com/KellyBytes/caffiend',
+  },
+  {
+    img: '/images/copacetic.png',
+    title: 'Word Learning App',
+    description:
+      'A spaced-repetition vocabulary app where users type words from meanings. It shows letter blocks, highlights errors, optimizes review intervals, and motivates daily study with a 24-hour streak system.',
+    tags: ['React', 'JavaScript'],
+    url: 'https://github.com/KellyBytes/copacetic',
   },
   {
     img: '/images/color-converter-app.png',
