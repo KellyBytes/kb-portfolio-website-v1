@@ -17,19 +17,20 @@ const Hero = () => {
       } transition-opacity duration-1500`}
     >
       <p className="text-pretty font-light leading-snug">
-        I am a self-taught front-end developer focused on building accessible,
-        interactive, and responsive applications. My background in mechanical
-        engineering and technical translation gives me a unique perspective on
-        problem-solving and design in web development. I am deeply interested in
-        improving <i>accessibility</i>, adding <i>new features</i>, and
-        continuously refining existing projects through <i>debugging</i> and{' '}
-        <i>optimization</i>.
+        I'm a self-taught front-end developer focused on building accessible,
+        interactive, and responsive web applications. With a background in
+        mechanical engineering and technical translation, I bring an analytical
+        and detail-oriented perspective to design and problem-solving in web
+        development.
       </p>
       <p className="text-pretty font-light leading-snug">
-        I aim to craft seamless digital experiences that balance functionality,
-        efficiency, and aesthetics. Skilled in{' '}
-        <span className="font-semibold text-[var(--c-tertiary)]">HTML</span>,{' '}
-        <span className="font-semibold text-[var(--c-tertiary)]">CSS</span>,{' '}
+        I enjoy creating user-centered interfaces, adding new features, and
+        improving existing projects through debugging, refinement, and
+        accessibility-focused enhancements. My goal is to build applications
+        that feel intuitive, efficient, and pleasant to use.
+      </p>
+      <p className="text-pretty font-light leading-snug">
+        I work with modern web technologies including{' '}
         <span className="font-semibold text-[var(--c-tertiary)]">
           JavaScript
         </span>
@@ -39,32 +40,26 @@ const Hero = () => {
         </span>
         , <span className="font-semibold text-[var(--c-tertiary)]">React</span>,{' '}
         <span className="font-semibold text-[var(--c-tertiary)]">Next.js</span>,{' '}
+        <span className="font-semibold text-[var(--c-tertiary)]">
+          Tailwind CSS
+        </span>
+        ,{' '}
         <span className="font-semibold text-[var(--c-tertiary)]">Node.js</span>,{' '}
-        <span className="font-semibold text-[var(--c-tertiary)]">Tailwind</span>
-        , <span className="font-semibold text-[var(--c-tertiary)]">Figma</span>,
-        and{' '}
         <span className="font-semibold text-[var(--c-tertiary)]">
           Git/GitHub
         </span>
-        , I build applications that are not only visually appealing but also
-        intuitive and user-friendly. While my core focus is front-end
-        development, I am actively expanding into full-stack development to
-        better understand end-to-end workflows and deliver more robust, scalable
-        solutions.
+        , and{' '}
+        <span className="font-semibold text-[var(--c-tertiary)]">Figma</span>.
+        While my primary focus is front-end development, I'm currently expanding
+        into full-stack development to better understand end-to-end workflows
+        and deliver more complete solutions.
       </p>
+
       <p className="text-pretty font-light leading-snug">
         As a quick learner and adaptable self-starter, I thrive in environments
-        where continuous improvement and problem-solving are essential. With a
-        strong focus on UI/UX and accessibility, I ensure every project I work
-        on meets the specific needs of its users.
-      </p>
-      <p className="text-pretty font-light leading-snug">
-        For me, web development is more than writing code—it’s about creating
-        meaningful digital experiences that resonate. Whether designing a sleek
-        landing page, developing a complex web application, or enhancing and
-        optimizing existing solutions, I approach each challenge with
-        creativity, precision, and dedication. I am passionate about turning
-        innovative ideas into functional, impactful digital experiences.
+        that value thoughtful UX, clean code, and continuous improvement. For
+        me, web development is about turning ideas into user-friendly digital
+        experiences that solve real problems and feel good to interact with.
       </p>
 
       <a
