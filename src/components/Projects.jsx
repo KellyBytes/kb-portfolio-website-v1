@@ -29,7 +29,7 @@ const Projects = () => {
       </h2>
       <div className="w-full">
         {projects.slice(0, visibleCount).map((project, projectIndex) => (
-          <a
+          <div
             key={projectIndex}
             className={`project w-full sm:h-48 flex flex-col-reverse sm:flex-row justify-between gap-x-4 my-6 bg-[var(--bg-tertiary)] hover:bg-[var(--bg-primary)] rounded-md hover:ring hover:ring-[var(--c-compliment)]/20 hover:shadow-md hover:shadow-[var(--c-compliment)]/20 group ${
               isThemeChanging ? 'transition-none' : 'transition duration-300'
@@ -45,8 +45,6 @@ const Projects = () => {
                 ? { animationDelay: `${(projectIndex % 4) * 100}ms` }
                 : {}
             }
-            href={project.url}
-            target="_blank"
           >
             <img
               src={project.img}
@@ -55,27 +53,38 @@ const Projects = () => {
             />
             <div className="w-full flex flex-col py-4 px-4 gap-y-2">
               <h2
-                className={`font-bold text-[var(--c-tertiary)] group-hover:text-[var(--c-accent)] text-shadow-sm ${
+                className={`flex justify-between font-bold text-[var(--c-tertiary)] group-hover:text-[var(--c-accent)] text-shadow-sm ${
                   isThemeChanging
                     ? 'transition-none'
                     : 'transition duration-300'
                 }`}
               >
                 {project.title}
-                <i
-                  className={`bx bx-arrow-up-right-stroke text-2xl align-bottom group-hover:translate-x-1 group-hover:-translate-y-1 transition duration-200 ${
-                    isThemeChanging
-                      ? 'transition-none'
-                      : 'transition duration-300'
-                  }`}
-                />
+                <div className="links flex gap-3">
+                  {project.demoUrl && (
+                    <a href={project.demoUrl} target="_blank">
+                      Live
+                      <i
+                        className={`bx bx-arrow-up-right-stroke text-2xl align-bottom hover:translate-x-1 hover:-translate-y-1 transition duration-200 text-[var(--c-tertiary)] group-hover:text-[var(--c-accent)] ${
+                          isThemeChanging
+                            ? 'transition-none'
+                            : 'transition duration-300'
+                        }`}
+                      />
+                    </a>
+                  )}
+                  <a href={project.url} target="_blank">
+                    GitHub
+                    <i
+                      className={`bx bx-arrow-up-right-stroke text-2xl align-bottom hover:translate-x-1 hover:-translate-y-1 transition duration-200 text-[var(--c-tertiary)] group-hover:text-[var(--c-accent)] ${
+                        isThemeChanging
+                          ? 'transition-none'
+                          : 'transition duration-300'
+                      }`}
+                    />
+                  </a>
+                </div>
               </h2>
-              <p
-                className="text-sm text-pretty max-h-28 overflow-y-auto custom-scrollbar pr-2"
-                tabIndex={0}
-              >
-                {project.description}
-              </p>
               <div className="tags flex flex-wrap gap-x-1 gap-y-2 mt-2">
                 {project.tags.map((tag, tagIndex) => (
                   <span
@@ -86,8 +95,14 @@ const Projects = () => {
                   </span>
                 ))}
               </div>
+              <p
+                className="text-sm text-pretty max-h-28 overflow-y-auto custom-scrollbar pr-2"
+                tabIndex={0}
+              >
+                {project.description}
+              </p>
             </div>
-          </a>
+          </div>
         ))}
         {visibleCount < projects.length && (
           <div className="text-center mt-8">
