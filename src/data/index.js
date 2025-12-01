@@ -38,16 +38,7 @@ export const projects = [
       'A reading tracker web application powered by the Google Books API. Users can search and save books, track reading progress, set due, and add their own ratings and notes.',
     tags: ['React', 'Tailwind', 'GBooks API'],
     url: 'https://github.com/KellyBytes/bookworm',
-    demoUrl: 'https://kb-bookworm.netlify.app',
-  },
-  {
-    img: '/images/ai-chat-bot.png',
-    title: 'AI Chat Bot',
-    description:
-      'A fully responsive, single-page web application powered by the OpenAI API. It allows users to interact with an AI model, manage multiple chat sessions, and save or delete conversations. The app includes light/dark theme support, formatted responses for readability, and smooth scrolling for an intuitive user experience.',
-    tags: ['React', 'OpenAI API'],
-    url: 'https://github.com/KellyBytes/ai-chat-bot',
-    demoUrl: 'https://kb-ai-chat-bot.netlify.app',
+    demoUrl: 'https://bookworm.kellybytes.dev/',
   },
   {
     img: '/images/news-app.png',
@@ -56,7 +47,7 @@ export const projects = [
       'A dashboard-style web application that displays the latest news and the current weather. It fetches top headlines and category-based articles from the GNews API. Users can bookmark their favorite articles to easily revisit them later.',
     tags: ['React', 'Tailwind', 'GNews API', 'Weather API'],
     url: 'https://github.com/KellyBytes/news-app',
-    demoUrl: 'https://kb-news-app.netlify.app',
+    demoUrl: 'https://news-app.kellybytes.dev',
   },
   {
     img: '/images/moodiary.png',
@@ -65,7 +56,16 @@ export const projects = [
       'A simple and intuitive daily mood-tracking application. After authenticating, users can select one of five mood icons to record how they feel each day. The app visualizes mood history on a monthly calendar and provides key insights such as streaks and average mood.',
     tags: ['Next.js', 'React', 'Tailwind', 'Firebase'],
     url: 'https://github.com/KellyBytes/moodiary',
-    demoUrl: 'https://kb-moodiary.netlify.app',
+    demoUrl: 'https://moodiary.kellybytes.dev',
+  },
+  {
+    img: '/images/ai-chat-bot.png',
+    title: 'AI Chatbot App',
+    description:
+      'A fully responsive, single-page web application powered by the OpenAI API. It allows users to interact with an AI model, manage multiple chat sessions, and save or delete conversations. The app includes light/dark theme support, formatted responses for readability, and smooth scrolling for an intuitive user experience.',
+    tags: ['React', 'OpenAI API'],
+    url: 'https://github.com/KellyBytes/ai-chat-bot',
+    demoUrl: 'https://chatbot.kellybytes.dev',
   },
   {
     img: '/images/caffiend.png',
@@ -74,7 +74,7 @@ export const projects = [
       'A caffeine tracker app where users log drinks by type, cost, and time. It estimates caffeine levels in the body, shows stats and history with details. Supports light/dark mode, and uses Firebase for user and data management.',
     tags: ['React', 'JavaScript', 'Firebase'],
     url: 'https://github.com/KellyBytes/caffiend',
-    demoUrl: 'https://kb-caffiend.netlify.app',
+    demoUrl: 'https://caffiend.kellybytes.dev',
   },
   {
     img: '/images/copacetic.png',
@@ -83,7 +83,7 @@ export const projects = [
       'A spaced-repetition vocabulary app where users type words from meanings. It shows letter blocks, highlights errors, optimizes review intervals, and motivates daily study with a 24-hour streak system.',
     tags: ['React', 'JavaScript'],
     url: 'https://github.com/KellyBytes/copacetic',
-    demoUrl: 'https://kb-word-learning-app.netlify.app',
+    demoUrl: 'https://copacetic.kellybytes.dev',
   },
   {
     img: '/images/color-converter-app.png',
