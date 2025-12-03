@@ -32,6 +32,15 @@ export const projects = [
     demoUrl: 'https://main.d3vz3aed5z659y.amplifyapp.com/',
   },
   {
+    img: '/images/subsy.png',
+    title: 'Subscription Tracker App',
+    description:
+      'Keep your subscriptions under control with this minimalist tracker. Add, edit, and remove subscriptions, and get insights with analytics including monthly cost, yearly cost, active subscriptions, and top spending categories.',
+    tags: ['Next.js', 'React', 'Firebase'],
+    url: 'https://github.com/KellyBytes/subsy',
+    demoUrl: 'https://subsy.kellybytes.dev/',
+  },
+  {
     img: '/images/bookworm.png',
     title: 'Reading Tracker App',
     description:
