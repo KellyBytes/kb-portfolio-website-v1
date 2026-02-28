@@ -23,22 +23,49 @@ export const socialIcons = [
 
 export const projects = [
   {
+    img: '/images/property-pulse.png',
+    title: 'Real Estate Marketplace',
+    description:
+      'A full-stack real estate marketplace built with Next.js, React, MongoDB, and Google OAuth. Users can bookmark and share properties, and send inquiry messages to property owners. Owners can manage their listings and handle received messages.',
+    tags: ['Next.js', 'React', 'Tailwind', 'MongoDB', 'Cloudinary', 'Mapbox'],
+    url: 'https://github.com/KellyBytes/property-pulse',
+    demoUrl: 'https://property-pulse.kellybytes.dev/',
+  },
+  {
     img: '/images/kellystore.png',
     title: 'E-commerce Web App',
     description:
-      'A digital shop for printable templates and hand-drawn icons, built with a full-stack approach. Stripe Test Mode lets users interact with real checkout flows safely. Its focus is on simple, elegant design and boosting productivity.',
-    tags: ['Next.js', 'React', 'Stripe API', 'AWS amplify'],
+      'A web shop for printable templates and icons, built with Next.js and React. Users can browse products and simulate checkout using Stripe.',
+    tags: ['Next.js', 'React', 'Stripe', 'AWS amplify'],
     url: 'https://github.com/KellyBytes/kellystore',
     demoUrl: 'https://main.d3vz3aed5z659y.amplifyapp.com/',
+  },
+  {
+    img: '/images/thinkboard.png',
+    title: 'Note Taking App',
+    description:
+      'A MERN stack app for creating, editing, and managing notes with authentication and CRUD functionality.',
+    tags: ['React', 'Tailwind', 'Node.js', 'Express', 'MongoDB'],
+    url: 'https://github.com/KellyBytes/mern-thinkboard',
+    demoUrl: 'https://mern-thinkboard-51ns.onrender.com/',
   },
   {
     img: '/images/bookworm.png',
     title: 'Reading Tracker App',
     description:
-      'A reading tracker web application powered by the Google Books API. Users can search and save books, track reading progress, set due, and add their own ratings and notes.',
+      'A reading tracker web app using the Google Books API. Users can search and save books, track reading progress, set due, and add their own ratings and notes.',
     tags: ['React', 'Tailwind', 'GBooks API'],
     url: 'https://github.com/KellyBytes/bookworm',
     demoUrl: 'https://bookworm.kellybytes.dev/',
+  },
+  {
+    img: '/images/news-app.png',
+    title: 'News App',
+    description:
+      'A dashboard-style web app that fetches the latest news and weather using GNews and Weather APIs. Users can bookmark favorite articles.',
+    tags: ['React', 'Tailwind', 'GNews API', 'Weather API'],
+    url: 'https://github.com/KellyBytes/news-app',
+    demoUrl: 'https://news-app.kellybytes.dev',
   },
   {
     img: '/images/subsy.png',
@@ -50,15 +77,6 @@ export const projects = [
     demoUrl: 'https://subsy.kellybytes.dev/',
   },
   {
-    img: '/images/news-app.png',
-    title: 'News App',
-    description:
-      'A dashboard-style web application that displays the latest news and the current weather. It fetches top headlines and category-based articles from the GNews API. Users can bookmark their favorite articles to easily revisit them later.',
-    tags: ['React', 'Tailwind', 'GNews API', 'Weather API'],
-    url: 'https://github.com/KellyBytes/news-app',
-    demoUrl: 'https://news-app.kellybytes.dev',
-  },
-  {
     img: '/images/moodiary.png',
     title: 'Mood Tracker App',
     description:
@@ -66,15 +84,6 @@ export const projects = [
     tags: ['Next.js', 'React', 'Tailwind', 'Firebase'],
     url: 'https://github.com/KellyBytes/moodiary',
     demoUrl: 'https://moodiary.kellybytes.dev',
-  },
-  {
-    img: '/images/ai-chat-bot.png',
-    title: 'AI Chatbot App',
-    description:
-      'A fully responsive, single-page web application powered by the OpenAI API. It allows users to interact with an AI model, manage multiple chat sessions, and save or delete conversations. The app includes light/dark theme support, formatted responses for readability, and smooth scrolling for an intuitive user experience.',
-    tags: ['React', 'OpenAI API'],
-    url: 'https://github.com/KellyBytes/ai-chat-bot',
-    demoUrl: 'https://chatbot.kellybytes.dev',
   },
   {
     img: '/images/caffiend.png',
@@ -93,6 +102,15 @@ export const projects = [
     tags: ['React', 'JavaScript'],
     url: 'https://github.com/KellyBytes/copacetic',
     demoUrl: 'https://copacetic.kellybytes.dev',
+  },
+  {
+    img: '/images/ai-chat-bot.png',
+    title: 'AI Chatbot App',
+    description:
+      'A fully responsive, single-page web application powered by the OpenAI API. It allows users to interact with an AI model, manage multiple chat sessions, and save or delete conversations. The app includes light/dark theme support, formatted responses for readability, and smooth scrolling for an intuitive user experience.',
+    tags: ['React', 'OpenAI API'],
+    url: 'https://github.com/KellyBytes/ai-chat-bot',
+    demoUrl: 'https://chatbot.kellybytes.dev',
   },
   {
     img: '/images/color-converter-app.png',

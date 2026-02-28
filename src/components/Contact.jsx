@@ -7,7 +7,7 @@ const Contact = () => {
   const form = useRef();
   const { isThemeChanging } = useTheme();
 
-  const sendEmail = (e) => {
+  const sendEmail = e => {
     e.preventDefault();
 
     emailjs
@@ -15,22 +15,22 @@ const Contact = () => {
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         form.current,
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
       )
       .then(
-        (result) => {
+        result => {
           console.log(result.text);
           alert('Message sent!');
           form.current.reset();
         },
-        (error) => {
+        error => {
           console.log(error.text);
           alert('Failed to send. Please try again');
-        }
+        },
       );
   };
 
-  const formatPhoneNumber = (value) => {
+  const formatPhoneNumber = value => {
     const numbers = value.replace(/\D/g, '');
 
     if (numbers.length <= 3) {
@@ -40,19 +40,19 @@ const Contact = () => {
     } else {
       return `(${numbers.slice(0, 3)}) ${numbers.slice(3, 6)}-${numbers.slice(
         6,
-        10
+        10,
       )}`;
     }
   };
 
-  const handleChange = (e) => {
+  const handleChange = e => {
     setPhone(formatPhoneNumber(e.target.value));
   };
 
   return (
     <div
       id="contact"
-      className="scroll-mt-14 sm:scroll-mt-16 lg:scroll-mt-0 w-full min-h-screen px-2 pt-4 sm:pt-6 pb-18 lg:pl-16 xl:pl-12 2xl:pl-0 lg:pr-0 lg:pt-18 lg:pb-0 flex flex-col justify-start items-center"
+      className="scroll-mt-14 sm:scroll-mt-16 lg:scroll-mt-0 w-full min-h-screen px-2 pt-4 sm:pt-6 pb-18 lg:pl-12 xl:pl-10 2xl:pl-8 lg:pr-0 lg:pt-18 lg:pb-0 flex flex-col justify-start items-center"
     >
       <h2 className="text-2xl font-light uppercase mb-8 text-shadow-md">
         Get in Touch

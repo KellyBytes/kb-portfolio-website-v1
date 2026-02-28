@@ -24,7 +24,7 @@ const NavBar = () => {
       if (isScrollingRef.current) return; // when scrolling by clicking the links
 
       const sections = ['home', 'projects', 'contact'];
-      sections.forEach((sectionId) => {
+      sections.forEach(sectionId => {
         const element = document.getElementById(sectionId);
         if (element) {
           const { top, bottom } = element.getBoundingClientRect();
@@ -55,16 +55,16 @@ const NavBar = () => {
             <a
               href="#"
               className="text-[var(--c-tertiary)] font-bold text-[clamp(2.25rem,2rem+1.25vw,3.5rem)] text-shadow-lg"
-              onClick={(e) => handleNavClick(e, 'home')}
+              onClick={e => handleNavClick(e, 'home')}
             >
               Eriko Iwashita
             </a>
             <h2 className="text-[var(--c-secondary)] font-medium text-[clamp(1.125rem,1.1rem+0.125vw,1.25rem)] text-shadow-md">
-              Front-End Developer
+              Front-End Developer | Full-Stack Developer
             </h2>
             <p className="hidden lg:block lg:w-80 text-wrap text-shadow-sm font-light">
-              Crafting accessible and engaging web experiences with precision
-              and creativity
+              Building accessible, scalable, and user-focused web applications
+              with modern technologies.
             </p>
           </div>
 
@@ -96,7 +96,7 @@ const NavBar = () => {
                   ? 'text-[var(--c-accent)]'
                   : 'text-[var(--c-tertiary)]'
               }`}
-              onClick={(e) => handleNavClick(e, 'home')}
+              onClick={e => handleNavClick(e, 'home')}
             >
               About
               <span
@@ -114,7 +114,7 @@ const NavBar = () => {
                   ? 'text-[var(--c-accent)]'
                   : 'text-[var(--c-tertiary)]'
               }`}
-              onClick={(e) => handleNavClick(e, 'projects')}
+              onClick={e => handleNavClick(e, 'projects')}
             >
               Projects
               <span
@@ -132,7 +132,7 @@ const NavBar = () => {
                   ? 'text-[var(--c-accent)]'
                   : 'text-[var(--c-tertiary)]'
               }`}
-              onClick={(e) => handleNavClick(e, 'contact')}
+              onClick={e => handleNavClick(e, 'contact')}
             >
               Contact
               <span
