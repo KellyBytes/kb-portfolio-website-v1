@@ -25,13 +25,13 @@ const Projects = () => {
       className="scroll-mt-14 sm:scroll-mt-16 lg:scroll-mt-0 w-full h-fit lg:min-h-screen px-2 pt-4 sm:pt-6 pb-18 md:pb-40 lg:pl-12 lg:pr-0 xl:pl-10 2xl:pl-8 lg:pt-18 lg:pb-0 flex flex-col gap-y-4 justify-start items-center "
     >
       <h2 className="text-2xl font-light uppercase text-shadow-md">
-        Recent Projects
+        Featured Projects
       </h2>
       <div className="w-full">
         {projects.slice(0, visibleCount).map((project, projectIndex) => (
           <div
             key={projectIndex}
-            className={`project w-full sm:h-48 flex flex-col-reverse sm:flex-row justify-between gap-x-4 my-6 bg-[var(--bg-tertiary)] hover:bg-[var(--bg-primary)] rounded-md hover:ring hover:ring-[var(--c-compliment)]/20 hover:shadow-md hover:shadow-[var(--c-compliment)]/20 group ${
+            className={`project w-full sm:h-58 lg:h-48 flex flex-col-reverse sm:flex-row justify-between gap-x-2 my-6 bg-[var(--bg-tertiary)] hover:bg-[var(--bg-primary)] rounded-md hover:ring hover:ring-[var(--c-compliment)]/20 hover:shadow-md hover:shadow-[var(--c-compliment)]/20 group ${
               isThemeChanging ? 'transition-none' : 'transition duration-300'
             }
             transition-all ease-out
@@ -53,7 +53,7 @@ const Projects = () => {
             />
             <div className="w-full flex flex-col py-4 px-4 gap-y-2">
               <h2
-                className={`flex justify-between font-bold text-[var(--c-tertiary)] group-hover:text-[var(--c-accent)] text-shadow-sm ${
+                className={`flex justify-between font-bold text-base lg:text-sm xl:text-base text-[var(--c-tertiary)] group-hover:text-[var(--c-accent)] text-shadow-sm ${
                   isThemeChanging
                     ? 'transition-none'
                     : 'transition duration-300'
@@ -65,7 +65,7 @@ const Projects = () => {
                     <a href={project.demoUrl} target="_blank">
                       Live
                       <i
-                        className={`bx bx-arrow-up-right-stroke text-2xl align-bottom hover:translate-x-1 hover:-translate-y-1 transition duration-200 text-[var(--c-tertiary)] group-hover:text-[var(--c-accent)] ${
+                        className={`bx bx-arrow-up-right-stroke text-2xl lg:text-xl xl:text-2xl align-bottom hover:translate-x-1 hover:-translate-y-1 transition duration-200 text-[var(--c-tertiary)] group-hover:text-[var(--c-accent)] ${
                           isThemeChanging
                             ? 'transition-none'
                             : 'transition duration-300'
@@ -76,7 +76,7 @@ const Projects = () => {
                   <a href={project.url} target="_blank">
                     GitHub
                     <i
-                      className={`bx bx-arrow-up-right-stroke text-2xl align-bottom hover:translate-x-1 hover:-translate-y-1 transition duration-200 text-[var(--c-tertiary)] group-hover:text-[var(--c-accent)] ${
+                      className={`bx bx-arrow-up-right-stroke text-2xl lg:text-xl xl:text-2xl align-bottom hover:translate-x-1 hover:-translate-y-1 transition duration-200 text-[var(--c-tertiary)] group-hover:text-[var(--c-accent)] ${
                         isThemeChanging
                           ? 'transition-none'
                           : 'transition duration-300'
@@ -85,20 +85,31 @@ const Projects = () => {
                   </a>
                 </div>
               </h2>
-              <div className="tags flex flex-wrap gap-x-1 gap-y-2 mt-2">
+              <div className="tags flex flex-wrap gap-x-1 gap-y-1 my-1">
                 {project.tags.map((tag, tagIndex) => (
                   <span
                     key={tagIndex}
-                    className="tag text-xs px-2 py-1 text-[var(--c-accent)]/80 bg-[var(--bg-accent)] rounded-xl"
+                    className="tag text-xs px-2 py-1 lg:px-1 xl:px-2 text-[var(--c-accent)]/80 bg-[var(--bg-accent)] rounded-sm"
                   >
                     {tag}
                   </span>
                 ))}
               </div>
               <p
-                className="text-sm text-pretty max-h-28 overflow-y-auto custom-scrollbar pr-2"
+                className="text-sm text-pretty max-h-40 overflow-y-auto custom-scrollbar pr-2"
                 tabIndex={0}
               >
+                <div className="features flex flex-wrap gap-x-1.5 text-xs text-[var(--c-tertiary)]/80 border-b-1 border-b-[var(--c-tertiary)]/20 pb-1.5 mb-1.5">
+                  <span className="font-medium text-[var(--c-accent)]">
+                    Key Features:
+                  </span>
+                  {project.features.map((feature, index) => (
+                    <span key={index}>
+                      {feature}
+                      {index < project.features.length - 1 && ' • '}
+                    </span>
+                  ))}
+                </div>
                 {project.description}
               </p>
             </div>

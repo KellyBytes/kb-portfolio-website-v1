@@ -25,6 +25,12 @@ const Hero = () => {
       </p>
 
       <p className="text-pretty font-light leading-snug">
+        I have built and deployed 30+ projects, including full-stack
+        applications and REST APIs, focusing on real-world features such as
+        authentication, database integration, and third-party services.
+      </p>
+
+      <p className="text-pretty font-light leading-snug">
         On the front end, I build responsive and intuitive user interfaces using{' '}
         <span className="font-semibold text-[var(--c-tertiary)]">
           JavaScript, TypeScript, React, Next.js, and Tailwind CSS,
@@ -51,9 +57,7 @@ const Hero = () => {
 
       <p className="text-pretty font-light leading-snug">
         I enjoy improving performance, refactoring code, and designing systems
-        that are both user-friendly and maintainable. My goal is to continue
-        growing as a full-stack developer while contributing to meaningful,
-        well-crafted digital products.
+        that are both user-friendly and maintainable.
       </p>
 
       <p className="text-pretty font-light leading-snug">
