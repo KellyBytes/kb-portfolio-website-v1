@@ -26,8 +26,9 @@ const Hero = () => {
 
       <p className="text-pretty font-light leading-snug">
         I have built and deployed 30+ projects, including full-stack
-        applications and REST APIs, focusing on real-world features such as
-        authentication, database integration, and third-party services.
+        applications, REST APIs, and an advanced e-commerce platform, focusing
+        on real-world features such as authentication, database integration, and
+        third-party services.
       </p>
 
       <p className="text-pretty font-light leading-snug">
@@ -42,7 +43,7 @@ const Hero = () => {
       <p className="text-pretty font-light leading-snug">
         On the back end, I develop APIs and full-stack applications with{' '}
         <span className="font-semibold text-[var(--c-tertiary)]">
-          Node.js, Express, and MongoDB,
+          Node.js, Express, Prisma, PostgreSQL, and MongoDB,
         </span>{' '}
         and deploy applications using modern cloud platforms such as{' '}
         <span className="font-semibold text-[var(--c-tertiary)]">
@@ -51,19 +52,21 @@ const Hero = () => {
         I have experience integrating authentication systems, managing
         databases, and connecting third-party services including{' '}
         <span className="font-semibold text-[var(--c-tertiary)]">
-          Stripe and Google APIs.
+          Stripe, PayPal, and Google APIs.
         </span>
       </p>
 
       <p className="text-pretty font-light leading-snug">
         I enjoy improving performance, refactoring code, and designing systems
-        that are both user-friendly and maintainable.
+        that are both user-friendly and maintainable, with a focus on
+        production-ready architecture.
       </p>
 
       <p className="text-pretty font-light leading-snug">
         I am currently seeking a junior front-end or full-stack developer
-        position where I can continue learning, contribute to real-world
-        projects, and grow within a collaborative team environment.
+        position where I can contribute to real-world applications, collaborate
+        with experienced developers, and continue growing as a full-stack
+        engineer.
       </p>
 
       <div className="flex justify-start gap-8 mt-4">

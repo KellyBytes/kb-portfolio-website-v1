@@ -40,6 +40,24 @@ export const projects = [
   },
 
   {
+    img: '/images/kbstore.png',
+    title: 'E-commerce Platform',
+    description:
+      'A full-stack e-commerce platform built with Next.js App Router, Prisma, and PostgreSQL. It features authentication, admin dashboard, product and order management, and multiple payment integrations including Stripe and PayPal.',
+    features: [
+      'Admin dashboard with analytics',
+      'Stripe & PayPal payments',
+      'Authentication with NextAuth',
+      'Product & order management',
+      'Interactive checkout flow',
+      'Ratings & reviews system',
+    ],
+    tags: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'Stripe', 'PayPal'],
+    url: 'https://github.com/KellyBytes/kbstore',
+    demoUrl: 'https://kbstore.kellybytes.dev',
+  },
+
+  {
     img: '/images/projecthub-api.png',
     title: 'RESTful API',
     description:
@@ -54,22 +72,6 @@ export const projects = [
     tags: ['Node.js', 'MongoDB', 'Swagger', 'Jest'],
     url: 'https://github.com/KellyBytes/projecthub-api-bnd',
     demoUrl: 'https://projecthub-api-bnd.onrender.com/api-docs',
-  },
-
-  {
-    img: '/images/kellystore.png',
-    title: 'E-commerce Web App',
-    description:
-      'A web shop for printable templates and icons built with Next.js and React. Users can browse products and simulate checkout using Stripe integration, demonstrating a typical e-commerce purchase flow.',
-    features: [
-      'Product catalog',
-      'Stripe checkout flow',
-      'Product pages',
-      'Responsive storefront',
-    ],
-    tags: ['React', 'Next.js', 'Stripe', 'AWS amplify'],
-    url: 'https://github.com/KellyBytes/kellystore',
-    demoUrl: 'https://main.d3vz3aed5z659y.amplifyapp.com',
   },
 
   {
@@ -149,6 +151,22 @@ export const projects = [
     tags: ['React', 'Next.js', 'Tailwind', 'Firebase'],
     url: 'https://github.com/KellyBytes/moodiary',
     demoUrl: 'https://moodiary.kellybytes.dev',
+  },
+
+  {
+    img: '/images/kellystore.png',
+    title: 'E-commerce Web App',
+    description:
+      'A web shop for printable templates and icons built with Next.js and React. Users can browse products and simulate checkout using Stripe integration, demonstrating a typical e-commerce purchase flow.',
+    features: [
+      'Product catalog',
+      'Stripe checkout flow',
+      'Product pages',
+      'Responsive storefront',
+    ],
+    tags: ['React', 'Next.js', 'Stripe', 'AWS amplify'],
+    url: 'https://github.com/KellyBytes/kellystore',
+    demoUrl: 'https://main.d3vz3aed5z659y.amplifyapp.com',
   },
 
   {
