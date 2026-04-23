@@ -60,7 +60,7 @@ const NavBar = () => {
               Eriko Iwashita
             </a>
             <h2 className="text-[var(--c-secondary)] font-medium text-[clamp(1.125rem,1.1rem+0.125vw,1.25rem)] text-shadow-md">
-              Front-End Developer | Full-Stack Developer
+              Full-Stack Developer
             </h2>
             <p className="hidden lg:block lg:w-80 text-wrap text-shadow-sm font-light">
               Building accessible, scalable, and user-focused web applications

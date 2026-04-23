@@ -17,56 +17,38 @@ const Hero = () => {
       } transition-opacity duration-1500`}
     >
       <p className="text-pretty font-light leading-snug">
-        I'm a self-taught developer transitioning from front-end to full-stack
-        development, passionate about building accessible, interactive, and
-        scalable web applications. With a background in mechanical engineering
-        and technical translation, I bring analytical thinking, precision, and
-        strong problem-solving skills to software development.
+        Full-stack developer with a background in mechanical engineering and
+        technical translation, bringing analytical thinking, attention to
+        detail, and a systems-level approach to software development.
       </p>
 
       <p className="text-pretty font-light leading-snug">
-        I have built and deployed 30+ projects, including full-stack
-        applications, REST APIs, and an advanced e-commerce platform, focusing
-        on real-world features such as authentication, database integration, and
-        third-party services.
+        I have built and deployed 30+ projects — including full-stack platforms,
+        RESTful APIs, and Stripe-integrated e-commerce applications — focused on
+        real-world features such as authentication, database integration, and
+        third-party service connectivity.
       </p>
 
       <p className="text-pretty font-light leading-snug">
-        On the front end, I build responsive and intuitive user interfaces using{' '}
+        On the front end, I build responsive, accessible interfaces using{' '}
         <span className="font-semibold text-[var(--c-tertiary)]">
-          JavaScript, TypeScript, React, Next.js, and Tailwind CSS,
+          JavaScript, TypeScript, React, Next.js, and Tailwind CSS.
         </span>{' '}
-        and design user experiences with{' '}
-        <span className="font-semibold text-[var(--c-tertiary)]">Figma.</span>
-      </p>
-
-      <p className="text-pretty font-light leading-snug">
         On the back end, I develop APIs and full-stack applications with{' '}
         <span className="font-semibold text-[var(--c-tertiary)]">
           Node.js, Express, Prisma, PostgreSQL, and MongoDB,
         </span>{' '}
-        and deploy applications using modern cloud platforms such as{' '}
+        and deploy with{' '}
         <span className="font-semibold text-[var(--c-tertiary)]">
           Vercel, Firebase, and Render.
-        </span>{' '}
-        I have experience integrating authentication systems, managing
-        databases, and connecting third-party services including{' '}
-        <span className="font-semibold text-[var(--c-tertiary)]">
-          Stripe, PayPal, and Google APIs.
         </span>
       </p>
 
       <p className="text-pretty font-light leading-snug">
-        I enjoy improving performance, refactoring code, and designing systems
-        that are both user-friendly and maintainable, with a focus on
-        production-ready architecture.
-      </p>
-
-      <p className="text-pretty font-light leading-snug">
-        I am currently seeking a junior front-end or full-stack developer
-        position where I can contribute to real-world applications, collaborate
-        with experienced developers, and continue growing as a full-stack
-        engineer.
+        I enjoy refactoring code, improving performance, and designing systems
+        that are both user-friendly and production-ready. Currently seeking
+        front-end or full-stack developer roles in Edmonton, AB, or remote
+        within Canada.
       </p>
 
       <div className="flex justify-start gap-8 mt-4">
