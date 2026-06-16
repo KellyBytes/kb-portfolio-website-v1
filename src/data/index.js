@@ -155,9 +155,9 @@ export const projects = [
 
   {
     img: '/images/kellystore.png',
-    title: 'E-commerce Web App',
+    title: '[Archived] E-commerce Web App',
     description:
-      'A web shop for printable templates and icons built with Next.js and React. Users can browse products and simulate checkout using Stripe integration, demonstrating a typical e-commerce purchase flow.',
+      'A web shop for printable templates and icons built with Next.js and React. Users can browse products and simulate checkout using Stripe integration, demonstrating a typical e-commerce purchase flow. **The live deployment has been retired, but the source code remains available.**',
     features: [
       'Product catalog',
       'Stripe checkout flow',
@@ -166,7 +166,7 @@ export const projects = [
     ],
     tags: ['React', 'Next.js', 'Stripe', 'AWS amplify'],
     url: 'https://github.com/KellyBytes/kellystore',
-    demoUrl: 'https://main.d3vz3aed5z659y.amplifyapp.com',
+    demoUrl: '',
   },
 
   {
