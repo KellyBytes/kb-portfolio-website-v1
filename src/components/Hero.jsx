@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useTheme } from '../context/ThemeContext';
 
 const Hero = () => {
@@ -30,13 +30,29 @@ const Hero = () => {
       </p>
 
       <p className="text-pretty font-light leading-snug">
+        My latest project,{' '}
+        <a
+          href="https://notes.kellybytes.dev"
+          target="_blank"
+          className={`font-semibold text-[var(--c-tertiary)] underline underline-offset-2 decoration-1 hover:opacity-80 ${
+            isThemeChanging ? 'transition-none' : 'transition duration-300'
+          }`}
+        >
+          Kelly's Notes
+        </a>
+        , is a content platform built with Next.js and Contentful CMS — a space
+        where I document what I'm learning about web development while building
+        out headless CMS architecture and content modeling skills.
+      </p>
+
+      <p className="text-pretty font-light leading-snug">
         On the front end, I build responsive, accessible interfaces using{' '}
         <span className="font-semibold text-[var(--c-tertiary)]">
           JavaScript, TypeScript, React, Next.js, and Tailwind CSS.
         </span>{' '}
         On the back end, I develop APIs and full-stack applications with{' '}
         <span className="font-semibold text-[var(--c-tertiary)]">
-          Node.js, Express, Prisma, PostgreSQL, and MongoDB,
+          Node.js, Express, Prisma, PostgreSQL, MongoDB, and Contentful,
         </span>{' '}
         and deploy with{' '}
         <span className="font-semibold text-[var(--c-tertiary)]">
