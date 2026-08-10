@@ -23,6 +23,23 @@ export const socialIcons = [
 
 export const projects = [
   {
+    img: '/images/kellys-notes.png',
+    title: 'Content Platform (CMS-Powered)',
+    description:
+      'A content platform built with Next.js App Router and Contentful, serving two distinct content types — long-form blog posts and a categorized web development knowledge base — from a single headless CMS with separate rendering pipelines for each.',
+    features: [
+      'Dual content models (Blog & Knowledge Base)',
+      'Rich Text and Markdown rendering',
+      'Contentful draft preview mode',
+      'Command-palette search (⌘K)',
+      'Difficulty-tagged interview reference articles',
+    ],
+    tags: ['Next.js', 'React', 'Contentful', 'Tailwind CSS'],
+    url: 'https://github.com/KellyBytes/contentful-knowledge-base',
+    demoUrl: 'https://notes.kellybytes.dev',
+  },
+
+  {
     img: '/images/property-pulse.png',
     title: 'Real Estate Marketplace',
     description:
@@ -75,21 +92,6 @@ export const projects = [
   },
 
   {
-    img: '/images/thinkboard.png',
-    title: 'Note Taking App',
-    description:
-      'A full-stack note-taking application built with the MERN stack. Authenticated users can create, edit, and organize notes with complete CRUD functionality and persistent database storage.',
-    features: [
-      'User authentication',
-      'Note CRUD operations',
-      'Persistent database storage',
-    ],
-    tags: ['React', 'Node.js', 'MongoDB', 'Tailwind'],
-    url: 'https://github.com/KellyBytes/mern-thinkboard',
-    demoUrl: 'https://mern-thinkboard-51ns.onrender.com',
-  },
-
-  {
     img: '/images/bookworm.png',
     title: 'Reading Tracker App',
     description:
@@ -119,6 +121,21 @@ export const projects = [
     tags: ['React', 'Tailwind', 'GNews API', 'Weather API'],
     url: 'https://github.com/KellyBytes/news-app',
     demoUrl: 'https://news-app.kellybytes.dev',
+  },
+
+  {
+    img: '/images/thinkboard.png',
+    title: 'Note Taking App',
+    description:
+      'A full-stack note-taking application built with the MERN stack. Authenticated users can create, edit, and organize notes with complete CRUD functionality and persistent database storage.',
+    features: [
+      'User authentication',
+      'Note CRUD operations',
+      'Persistent database storage',
+    ],
+    tags: ['React', 'Node.js', 'MongoDB', 'Tailwind'],
+    url: 'https://github.com/KellyBytes/mern-thinkboard',
+    demoUrl: 'https://mern-thinkboard-51ns.onrender.com',
   },
 
   {
