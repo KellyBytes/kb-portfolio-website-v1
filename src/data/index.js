@@ -24,17 +24,24 @@ export const socialIcons = [
 export const projects = [
   {
     img: '/images/kellys-notes.png',
-    title: 'Content Platform (CMS-Powered)',
+    title: 'Content Platform with an AI Authoring Pipeline',
     description:
-      'A content platform built with Next.js App Router and Contentful, serving two distinct content types — long-form blog posts and a categorized web development knowledge base — from a single headless CMS with separate rendering pipelines for each.',
+      'A knowledge base and blog built on Next.js App Router and Contentful, extended with a repeatable authoring workflow. Claude Code skills propose topics, draft against a version-controlled template contract, and verify an article by executing its code and auditing its citations — while Node scripts diff every change before it reaches the CMS and abort when two articles disagree about a shared entry.',
     features: [
       'Dual content models (Blog & Knowledge Base)',
-      'Rich Text and Markdown rendering',
-      'Contentful draft preview mode',
-      'Command-palette search (⌘K)',
-      'Difficulty-tagged interview reference articles',
+      'AI authoring workflow: topic → draft → verify → commit',
+      'Article verification by executing code and auditing sources',
+      'Push guards that abort on conflicting shared entries',
+      'Draft preview isolated from the shared cache',
     ],
-    tags: ['Next.js', 'React', 'Contentful', 'Tailwind CSS'],
+    tags: [
+      'Next.js',
+      'React',
+      'Contentful',
+      'Node.js',
+      'Claude Code',
+      'Tailwind CSS',
+    ],
     url: 'https://github.com/KellyBytes/contentful-knowledge-base',
     demoUrl: 'https://notes.kellybytes.dev',
   },

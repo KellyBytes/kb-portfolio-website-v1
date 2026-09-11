@@ -18,15 +18,16 @@ const Hero = () => {
     >
       <p className="text-pretty font-light leading-snug">
         Full-stack developer with a background in mechanical engineering and
-        technical translation, bringing analytical thinking, attention to
-        detail, and a systems-level approach to software development.
+        technical translation. I bring an analytical, detail-oriented approach
+        to building software, shaped by that earlier work.
       </p>
 
       <p className="text-pretty font-light leading-snug">
-        I have built and deployed 30+ projects — including full-stack platforms,
-        RESTful APIs, and Stripe-integrated e-commerce applications — focused on
-        real-world features such as authentication, database integration, and
-        third-party service connectivity.
+        I've built and deployed 30+ projects, including full-stack platforms,
+        RESTful APIs, and Stripe-integrated e-commerce apps, most covering
+        authentication, database integration, and third-party service
+        connections. The more recent ones I keep maintaining and extending
+        instead of moving on once they ship.
       </p>
 
       <p className="text-pretty font-light leading-snug">
@@ -40,31 +41,38 @@ const Hero = () => {
         >
           Kelly's Notes
         </a>
-        , is a content platform built with Next.js and Contentful CMS — a space
-        where I document what I'm learning about web development while building
-        out headless CMS architecture and content modeling skills.
+        , is a content platform built on Next.js and Contentful. I also built
+        the workflow that fills it: Claude Code skills that draft articles
+        against a version-controlled template, verify them by executing the code
+        they contain, and refuse to write when two articles disagree. Getting
+        the pipeline to hand decisions back instead of guessing took more work
+        than the rest of the project, and I think it mattered more too.
       </p>
 
       <p className="text-pretty font-light leading-snug">
-        On the front end, I build responsive, accessible interfaces using{' '}
+        On the front end, I build responsive, accessible interfaces with{' '}
         <span className="font-semibold text-[var(--c-tertiary)]">
           JavaScript, TypeScript, React, Next.js, and Tailwind CSS.
         </span>{' '}
-        On the back end, I develop APIs and full-stack applications with{' '}
+        On the back end, I work with{' '}
         <span className="font-semibold text-[var(--c-tertiary)]">
-          Node.js, Express, Prisma, PostgreSQL, MongoDB, and Contentful,
+          Node.js, Express, Prisma, PostgreSQL, and MongoDB,
         </span>{' '}
-        and deploy with{' '}
+        plus headless CMS platforms like{' '}
+        <span className="font-semibold text-[var(--c-tertiary)]">
+          Contentful,
+        </span>{' '}
+        and deploy on{' '}
         <span className="font-semibold text-[var(--c-tertiary)]">
           Vercel, Firebase, and Render.
         </span>
       </p>
 
       <p className="text-pretty font-light leading-snug">
-        I enjoy refactoring code, improving performance, and designing systems
-        that are both user-friendly and production-ready. Currently seeking
-        front-end or full-stack developer roles in Edmonton, AB, or remote
-        within Canada.
+        I like refactoring code, improving performance, and building the tooling
+        around my own workflow — Claude Code is part of that now, automating
+        pieces of it. Currently looking for front-end or full-stack developer
+        roles in Edmonton, AB, or remote within Canada.
       </p>
 
       <div className="flex justify-start gap-8 mt-4">
