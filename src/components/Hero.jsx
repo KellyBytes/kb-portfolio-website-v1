@@ -23,7 +23,7 @@ const Hero = () => {
       </p>
 
       <p className="text-pretty font-light leading-snug">
-        I've built and deployed 30+ projects, including full-stack platforms,
+        I've built and deployed 20+ projects, including full-stack platforms,
         RESTful APIs, and Stripe-integrated e-commerce apps, most covering
         authentication, database integration, and third-party service
         connections. The more recent ones I keep maintaining and extending
